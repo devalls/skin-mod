@@ -29,8 +29,8 @@
 					</item>
 					<item>
 						<label>$LOCALIZE[13012]</label>
-						<!-- onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=RestartKodi",return)</onclick -->
-						<onclick>Quit()</onclick>
+						<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=RestartKodi",return)</onclick>
+						<!-- onclick>Quit()</onclick -->
 					<visible>System.ShowExitButton</visible>
 					</item>
 					<item>
