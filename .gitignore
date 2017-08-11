@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# added
+*.pyo
+*.pyc
+.DS_Store
+.idea/
