@@ -111,12 +111,6 @@
 					</include>
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
-						<!-- include content="WidgetListCategories" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://script.extendedinfo/tmdb"/>
-							<param name="widget_header" value="$LOCALIZE[31148]"/>
-							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="45900"/>
-						</include -->
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://script.extendedinfo?info=popularmovies"/>
 							<param name="widget_header" value="$LOCALIZE[45005]"/>
