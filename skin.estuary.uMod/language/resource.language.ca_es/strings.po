@@ -578,7 +578,7 @@ msgstr "Series recomanades a TMDB"
 #: /xml/Home.xml
 msgctxt "#46007"
 msgid "Radio channels"
-msgstr "radio"
+msgstr "Radio"
 
 #: /xml/Home.xml
 msgctxt "#40008"
