@@ -1,4 +1,7 @@
-[B]2.3.0[/B]
+[B]2.5.0[/B]
+• Platform fix 
+
+[B]2.3.3[/B]
 • Minor fix 
 
 [B]2.2.8[/B]
