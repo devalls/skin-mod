@@ -1,5 +1,6 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]·2.7.6[/B] Minor bug fix.[/COLOR]
+[COLOR green][B]•2.7.8[/B] Cleaning code.[/COLOR]
+[COLOR yellow][B]•2.7.6[/B] Minor bug fix.[/COLOR]
 [COLOR yellow][B]•2.7.5[/B] Home fix[/COLOR]
 [COLOR yellow][B]•2.7.0[/B] Platform fix[/COLOR]
 [COLOR yellow][B]•2.5.0[/B] Bug fix[/COLOR]
