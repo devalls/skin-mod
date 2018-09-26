@@ -123,13 +123,41 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
 						</include>
-						</control>
+					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoVideoclubButton)"/>
+					</include>
+				</control>
+				<control type="group" id="45300">
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
+					<include content="Visible_Right_Delayed">
+						<param name="id" value="tvondemand"/>
+					</include>
+					<control type="grouplist" id="45301">
+						<include>WidgetGroupListCommon</include>
+						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
+							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdtb3ZpZScsICdncm91cCc6IFRydWUsICduYW1lJzogJ0dyYW50b3JyZW50JywgJ2ZhbmFydCc6ICdmYW5hcnQvZ3JhbnRvcnJlbnQuanBnJywgJ3Bvc3Rlcic6ICdwb3N0ZXIvbW92aWUucG5nJywgJ2xhYmVsJzogJ05vdmVkYWRlcycsICdiYW5uZXInOiAnYmFubmVyL21vdmllLnBuZycsICd1cmwnOiAnaHR0cHM6Ly9ncmFudG9ycmVudC5uZXQvJywgJ2FkdWx0JzogRmFsc2UsICdjb250ZW50X3R5cGUnOiAnbW92aWVzJywgJ2FjdGlvbic6ICdtb3ZpZXMnLCAnaWNvbic6ICdpY29uL21vdmllLnBuZycsICd0eXBlJzogJ2l0ZW0nLCAnY2hhbm5lbCc6ICdncmFudG9ycmVudCcsICd0aHVtYic6ICd0aHVtYi9ncmFudG9ycmVudC5wbmcnfQ%3d%3d&quot;"/>
+							<param name="widget_header" value="$LOCALIZE[45305]"/>
+							<param name="widget_target" value="videos"/>
+							<param name="list_id" value="45400"/>
+						</include>
+						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
+							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICd0dnNob3cnLCAnZ3JvdXAnOiBUcnVlLCAndGh1bWInOiAndGh1bWIvZ3JhbnRvcnJlbnQucG5nJywgJ25hbWUnOiAnR3JhbnRvcnJlbnQnLCAnZmFuYXJ0JzogJ2ZhbmFydC9ncmFudG9ycmVudC5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci9lcGlzb2RlLnBuZycsICdsYWJlbCc6ICdOdWV2b3MgZXBpc29kaW9zJywgJ3VybCc6ICdodHRwczovL2dyYW50b3JyZW50Lm5ldC8vc2VyaWVzLycsICdhZHVsdCc6IEZhbHNlLCAnY29udGVudF90eXBlJzogJ3R2c2hvd3MnLCAndHlwZSc6ICdpdGVtJywgJ2FjdGlvbic6ICduZXdlc3RfZXBpc29kZXMnLCAnYmFubmVyJzogJ2Jhbm5lci9lcGlzb2RlLnBuZycsICdjaGFubmVsJzogJ2dyYW50b3JyZW50JywgJ2ljb24nOiAnaWNvbi9lcGlzb2RlLnBuZyd9&quot;"/>
+							<param name="widget_header" value="$LOCALIZE[45306]"/>
+							<param name="widget_target" value="videos"/>
+							<param name="list_id" value="45600"/>
+						</include>
+					</control>
+					<include content="ImageWidget" condition="!Library.HasContent(movies)">
+						<param name="text_label" value="$LOCALIZE[31304]" />
+						<param name="button_label" value="$LOCALIZE[31310]" />
+						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
+						<param name="button_id" value="45800"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTvondemandButton)"/>
 					</include>
 				</control>
 				<control type="group" id="46000">
@@ -169,13 +197,13 @@
 							<param name="list_id" value="47900"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJwZWxpcyIsIAogICAgImNhdGVnb3J5IjogIlBlbGlzTWFnbmV0IiwgCiAgICAiY2hhbm5lbCI6ICJwZWxpc21hZ25ldCIsIAogICAgImZhbmFydCI6ICIiLCAKICAgICJpbmZvTGFiZWxzIjoge30sIAogICAgInRodW1ibmFpbCI6ICIiLCAKICAgICJ0aXRsZSI6ICIgICAgIEVzdHJlbm9zIiwgCiAgICAidG90YWxJdGVtcyI6IDAsIAogICAgInVybCI6ICJodHRwOi8vcGVsaXNtYWcubmV0L2FwaT9zb3J0X2J5PWRhdGVfYWRkZWQmcGFnZT0wIgp9&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiUGVsaXNNYWduZXQiLCAKICAgICJjaGFubmVsIjogInBlbGlzbWFnbmV0IiwgCiAgICAiZXh0cmEiOiAicGVsaWN1bGFzIiwgCiAgICAiZmFuYXJ0IjogIiIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAidGh1bWJuYWlsIjogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbGZhLWFkZG9uL21lZGlhL21hc3Rlci90aGVtZXMvZGFyay90aHVtYl9ub3dfcGxheWluZy5wbmciLCAKICAgICJ0aXRsZSI6ICIgICAgIEVzdHJlbm9zIiwgCiAgICAidG90YWxJdGVtcyI6IDAsIAogICAgInVybCI6ICJodHRwczovL3BlbGlzbWFnLm5ldC9hcGk%2fc29ydF9ieT1kYXRlX2FkZGVkJnBhZ2U9MCIKfQ%3d%3d&quot;"/>
 							<param name="widget_header" value="$LOCALIZE[47009]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="47100"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJzZXJpZXMiLCAKICAgICJjYXRlZ29yeSI6ICJQZWxpc01hZ25ldCIsIAogICAgImNoYW5uZWwiOiAicGVsaXNtYWduZXQiLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJ0aHVtYm5haWwiOiAiIiwgCiAgICAidGl0bGUiOiAiICAgICArIFBvcHVsYXJlcyIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ1cmwiOiAiaHR0cDovL3BlbGlzbWFnLm5ldC9zZWFwaT9wYWdlPTAiCn0%3d&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiUGVsaXNNYWduZXQiLCAKICAgICJjaGFubmVsIjogInBlbGlzbWFnbmV0IiwgCiAgICAiZXh0cmEiOiAic2VyaWVzIiwgCiAgICAiZmFuYXJ0IjogIiIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAidGh1bWJuYWlsIjogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbGZhLWFkZG9uL21lZGlhL21hc3Rlci90aGVtZXMvZGFyay90aHVtYl9wb3B1bGFyLnBuZyIsIAogICAgInRpdGxlIjogIiAgICAgKyBQb3B1bGFyZXMiLCAKICAgICJ0b3RhbEl0ZW1zIjogMCwgCiAgICAidXJsIjogImh0dHBzOi8vcGVsaXNtYWcubmV0L3NlYXBpP3BhZ2U9MCIKfQ%3d%3d&quot;"/>
 							<param name="widget_header" value="$LOCALIZE[47010]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="47200"/>
@@ -947,6 +975,14 @@
 							<thumb>icons/sidemenu/PrimeVideo2.png</thumb>
 							<property name="id">videoclub</property>
 							<visible>!Skin.HasSetting(HomeMenuNoVideoclubButton)</visible>
+						</item>
+						<item>
+							<label>$LOCALIZE[40009]</label>
+							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Fibracat TV",return)</onclick>
+							<property name="menu_id">$NUMBER[45300]</property>
+							<thumb>icons/sidemenu/tvfibracat.png</thumb>
+							<property name="id">tvondemand</property>
+							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[40000]</label>

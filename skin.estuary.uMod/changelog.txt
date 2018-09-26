@@ -1,5 +1,7 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]•2.8.0[/B] Update code.[/COLOR]
+[COLOR green][B]•2.8.5[/B] Variables modded.[/COLOR]
+[COLOR yellow][B]•2.8.2[/B] Add new code and icon FibracatTV.[/COLOR]
+[COLOR yellow][B]•2.8.0[/B] Update code.[/COLOR]
 [COLOR yellow][B]•2.7.9[/B] Cleaning code.[/COLOR]
 [COLOR yellow][B]•2.7.8[/B] Update resources.[/COLOR]
 [COLOR yellow][B]•2.7.6[/B] Minor bug fix.[/COLOR]
