@@ -1,5 +1,5 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]•2.8.7[/B] Change homescreen links.[/COLOR]
+[COLOR green][B]•2.8.8[/B] Change homescreen links.[/COLOR]
 [COLOR yellow][B]•2.8.6[/B] Minor bug fix.[/COLOR]
 [COLOR yellow][B]•2.8.5[/B] Variables modded.[/COLOR]
 [COLOR yellow][B]•2.8.2[/B] Add new code and icon FibracatTV.[/COLOR]
