@@ -140,21 +140,21 @@
 					<control type="grouplist" id="45301">
 						<include>WidgetGroupListCommon</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdtb3ZpZScsICdncm91cCc6IFRydWUsICduYW1lJzogJ0dyYW50b3JyZW50JywgJ2ZhbmFydCc6ICdmYW5hcnQvZ3JhbnRvcnJlbnQuanBnJywgJ3Bvc3Rlcic6ICdwb3N0ZXIvbW92aWUucG5nJywgJ2xhYmVsJzogJ05vdmVkYWRlcycsICdiYW5uZXInOiAnYmFubmVyL21vdmllLnBuZycsICd1cmwnOiAnaHR0cHM6Ly9ncmFudG9ycmVudC5uZXQvJywgJ2FkdWx0JzogRmFsc2UsICdjb250ZW50X3R5cGUnOiAnbW92aWVzJywgJ2FjdGlvbic6ICdtb3ZpZXMnLCAnaWNvbic6ICdpY29uL21vdmllLnBuZycsICd0eXBlJzogJ2l0ZW0nLCAnY2hhbm5lbCc6ICdncmFudG9ycmVudCcsICd0aHVtYic6ICd0aHVtYi9ncmFudG9ycmVudC5wbmcnfQ%3d%3d&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiR3JhblRvcnJlbnQiLCAKICAgICJjaGFubmVsIjogImdyYW50b3JyZW50IiwgCiAgICAiZXh0cmEiOiAicGVsaWN1bGFzIiwgCiAgICAiZmFuYXJ0IjogIi9ob21lL2h0cGMvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5hbGZhL3Jlc291cmNlcy9tZWRpYS9jaGFubmVscy9mYW5hcnQvZ3JhbnRvcnJlbnQucG5nIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJ0aHVtYm5haWwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FsZmEtYWRkb24vbWVkaWEvbWFzdGVyL3RoZW1lcy9kYXJrL3RodW1iX2NoYW5uZWxzX21vdmllLnBuZyIsIAogICAgInRpdGxlIjogIk5vdmVkYWRlcyIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ1cmwiOiAiaHR0cHM6Ly9ncmFudG9ycmVudC5uZXQvIgp9&quot;"/>
 							<param name="widget_header" value="$LOCALIZE[45305]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45400"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICd0dnNob3cnLCAnZ3JvdXAnOiBUcnVlLCAndGh1bWInOiAndGh1bWIvZ3JhbnRvcnJlbnQucG5nJywgJ25hbWUnOiAnR3JhbnRvcnJlbnQnLCAnZmFuYXJ0JzogJ2ZhbmFydC9ncmFudG9ycmVudC5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci9lcGlzb2RlLnBuZycsICdsYWJlbCc6ICdOdWV2b3MgZXBpc29kaW9zJywgJ3VybCc6ICdodHRwczovL2dyYW50b3JyZW50Lm5ldC8vc2VyaWVzLycsICdhZHVsdCc6IEZhbHNlLCAnY29udGVudF90eXBlJzogJ3R2c2hvd3MnLCAndHlwZSc6ICdpdGVtJywgJ2FjdGlvbic6ICduZXdlc3RfZXBpc29kZXMnLCAnYmFubmVyJzogJ2Jhbm5lci9lcGlzb2RlLnBuZycsICdjaGFubmVsJzogJ2dyYW50b3JyZW50JywgJ2ljb24nOiAnaWNvbi9lcGlzb2RlLnBuZyd9&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiR3JhblRvcnJlbnQiLCAKICAgICJjaGFubmVsIjogImdyYW50b3JyZW50IiwgCiAgICAiZXh0cmEiOiAic2VyaWVzIiwgCiAgICAiZmFuYXJ0IjogIi9ob21lL2h0cGMvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5hbGZhL3Jlc291cmNlcy9tZWRpYS9jaGFubmVscy9mYW5hcnQvZ3JhbnRvcnJlbnQucG5nIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJ0aHVtYm5haWwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FsZmEtYWRkb24vbWVkaWEvbWFzdGVyL3RoZW1lcy9kYXJrL3RodW1iX2NoYW5uZWxzX3R2c2hvdy5wbmciLCAKICAgICJ0aXRsZSI6ICJTZXJpZXMiLCAKICAgICJ0b3RhbEl0ZW1zIjogMCwgCiAgICAidXJsIjogImh0dHBzOi8vZ3JhbnRvcnJlbnQubmV0L3Nlcmllcy8iCn0%3d&quot;"/>
 							<param name="widget_header" value="$LOCALIZE[45306]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45600"/>
 						</include>
 					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
-						<param name="text_label" value="$LOCALIZE[31104]" />
-						<param name="button_label" value="$LOCALIZE[31110]" />
+						<param name="text_label" value="$LOCALIZE[31304]" />
+						<param name="button_label" value="$LOCALIZE[31310]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45800"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTvondemandButton)"/>

@@ -576,6 +576,16 @@ msgid "Popular TV Shows in TMDB"
 msgstr "Series recomanades a TMDB"
 
 #: /xml/Home.xml
+msgctxt "#45305"
+msgid "New movies in Grantorrent"
+msgstr "Novetats a Grantorrent"
+
+#: /xml/Home.xml
+msgctxt "#45306"
+msgid "TV Shows in Grantorrent"
+msgstr "Series a Grantorrent"
+
+#: /xml/Home.xml
 msgctxt "#46007"
 msgid "Radio channels"
 msgstr "Radio"
@@ -594,4 +604,9 @@ msgstr "Estrenes Pelismagnet"
 msgctxt "#47010"
 msgid "Pelismagnet popular TV Shows"
 msgstr "Series recomanades Pelismagnet"
+
+#: /xml/Home.xml
+msgctxt "#40009"
+msgid "Fibracat TV"
+msgstr "Fibracat TV"
 
