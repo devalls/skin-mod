@@ -189,13 +189,6 @@
 					</include>
 					<control type="grouplist" id="47001">
 						<include>WidgetGroupListCommon</include>
-						<include content="WidgetListCategories" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.omega/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIlBlbGlzTWFnbmV0IiwgCiAgICAiY2hhbm5lbCI6ICJwZWxpc21hZ25ldCIsIAogICAgImNvbnRleHQiOiBbCiAgICAgICAgewogICAgICAgICAgICAiYWN0aW9uIjogImNoYW5uZWxfY29uZmlnIiwgCiAgICAgICAgICAgICJjaGFubmVsIjogInNldHRpbmciLCAKICAgICAgICAgICAgImNvbmZpZyI6ICJwZWxpc21hZ25ldCIsIAogICAgICAgICAgICAiZnJvbV9hY3Rpb24iOiAibWFpbmxpc3QiLCAKICAgICAgICAgICAgImZyb21fY2hhbm5lbCI6ICJwZWxpc21hZ25ldCIsIAogICAgICAgICAgICAidGl0bGUiOiAiQ29uZmlndXJhciBjYW5hbCIKICAgICAgICB9CiAgICBdLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6IFsKICAgICAgICAiY2FzdCIKICAgIF0sIAogICAgInRodW1ibmFpbCI6ICIvaG9tZS9odHBjLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYWxmYS9yZXNvdXJjZXMvbWVkaWEvY2hhbm5lbHMvdGh1bWIvcGVsaXNtYWduZXQucG5nIiwgCiAgICAidGl0bGUiOiAiUGVsaXNNYWduZXQiLCAKICAgICJ0b3RhbEl0ZW1zIjogMCwgCiAgICAidmVyc2lvbiI6IDEsIAogICAgInZpZXdtb2RlIjogImxpc3QiCn0%3d&quot;"/>
-							<param name="content_path" value=""/>
-							<param name="widget_header" value="$LOCALIZE[31148]"/>
-							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="47900"/>
-						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiUGVsaXNNYWduZXQiLCAKICAgICJjaGFubmVsIjogInBlbGlzbWFnbmV0IiwgCiAgICAiZXh0cmEiOiAicGVsaWN1bGFzIiwgCiAgICAiZmFuYXJ0IjogIiIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAidGh1bWJuYWlsIjogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbGZhLWFkZG9uL21lZGlhL21hc3Rlci90aGVtZXMvZGFyay90aHVtYl9ub3dfcGxheWluZy5wbmciLCAKICAgICJ0aXRsZSI6ICIgICAgIEVzdHJlbm9zIiwgCiAgICAidG90YWxJdGVtcyI6IDAsIAogICAgInVybCI6ICJodHRwczovL3BlbGlzbWFnLm5ldC9hcGk%2fc29ydF9ieT1kYXRlX2FkZGVkJnBhZ2U9MCIKfQ%3d%3d&quot;"/>
 							<param name="widget_header" value="$LOCALIZE[47009]"/>

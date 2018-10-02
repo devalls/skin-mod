@@ -1,5 +1,6 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]•2.8.9[/B] Update languages.[/COLOR]
+[COLOR green][B]•2.9.0[/B] Change categories PM and update Screenshot.[/COLOR]
+[COLOR yellow][B]•2.8.9[/B] Update languages.[/COLOR]
 [COLOR yellow][B]•2.8.8[/B] Change homescreen links.[/COLOR]
 [COLOR yellow][B]•2.8.6[/B] Minor bug fix.[/COLOR]
 [COLOR yellow][B]•2.8.5[/B] Variables modded.[/COLOR]
