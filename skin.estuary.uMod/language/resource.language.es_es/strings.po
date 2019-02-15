@@ -571,23 +571,23 @@ msgstr "Retroarch"
 
 #: /xml/Home.xml
 msgctxt "#45005"
+msgid "HDTorrents premieres"
+msgstr "Novedades HDTorrents"
+
+#: /xml/Home.xml
+msgctxt "#45006"
+msgid "Top ten HDTorrents"
+msgstr "Top ten HDTorrents"
+
+#: /xml/Home.xml
+msgctxt "#45305"
 msgid "Popular movies in TMDB"
 msgstr "Películas recomendadas en TMDB"
 
 #: /xml/Home.xml
-msgctxt "#45006"
+msgctxt "#45306"
 msgid "Popular TV Shows in TMDB"
 msgstr "Series recomendadas en TMDB"
-
-#: /xml/Home.xml
-msgctxt "#45305"
-msgid "New movies in Grantorrent"
-msgstr "Novedades en Grantorrent"
-
-#: /xml/Home.xml
-msgctxt "#45306"
-msgid "TV Shows in Grantorrent"
-msgstr "Series en Grantorrent"
 
 #: /xml/Home.xml
 msgctxt "#46007"
@@ -596,18 +596,18 @@ msgstr "Radio"
 
 #: /xml/Home.xml
 msgctxt "#40008"
-msgid "Pelismagnet"
-msgstr "Pelismagnet"
+msgid "Grantorrent"
+msgstr "Grantorrent"
 
 #: /xml/Home.xml
 msgctxt "#47009"
-msgid "Pelismagnet premieres"
-msgstr "Estrenos Pelismagnet"
+msgid "Grantorrent premieres"
+msgstr "Novedades Grantorrent"
 
 #: /xml/Home.xml
 msgctxt "#47010"
-msgid "Pelismagnet popular TV Shows"
-msgstr "Series recomendadas Pelismagnet"
+msgid "Grantorrent last episodes"
+msgstr "Últimos capítulos Grantorrent"
 
 #: /xml/Home.xml
 msgctxt "#40009"

@@ -753,22 +753,22 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "Popular movies in TMDB"
+msgid "HDTorrents premieres"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45006"
-msgid "Popular TV Shows in TMDB"
+msgid "Top ten HDTorrents"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45305"
-msgid "New movies in Grantorrent"
+msgid "Popular movies in TMDB"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45306"
-msgid "TV Shows in Grantorrent"
+msgid "Popular TV Shows in TMDB"
 msgstr ""
 
 #: /xml/Home.xml
@@ -778,17 +778,17 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40008"
-msgid "Pelismagnet"
+msgid "Grantorrent"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#47009"
-msgid "Pelismagnet premieres"
+msgid "Grantorrent premieres"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#47010"
-msgid "Pelismagnet popular TV Shows"
+msgid "Grantorrent last episodes"
 msgstr ""
 
 #: /xml/Home.xml
