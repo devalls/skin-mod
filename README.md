@@ -2,6 +2,6 @@
 
 # Attention! Some additional scripts are needed (not included in code git)
 
-skin.estuary.uMod
-  is based on Darkozma's code estuary mod that is based on original estuary addon.
+skin.estuary.uMod and skin.estuary.uMod2
+  are based on Darkozma's code estuary mod that is based on original estuary addon.
 
