@@ -1150,10 +1150,10 @@
 					<onright>2000</onright>
 					<align>justify</align>
 					<include content="IconButton">
-						<param name="control_id" value="804" />
-						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
-						<param name="icon" value="icons/power.png" />
-						<param name="label" value="$LOCALIZE[33060]" />
+						<param name="control_id" value="801" />
+						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="icon" value="icons/sidemenu/favourites2.png" />
+						<param name="label" value="$LOCALIZE[137]" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="802" />
@@ -1162,10 +1162,10 @@
 						<param name="label" value="$LOCALIZE[21417]" />
 					</include>
 					<include content="IconButton">
-						<param name="control_id" value="801" />
-						<param name="onclick" value="ActivateWindow(1107)" />
-						<param name="icon" value="icons/search.png" />
-						<param name="label" value="$LOCALIZE[137]" />
+						<param name="control_id" value="804" />
+						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
+						<param name="icon" value="icons/power.png" />
+						<param name="label" value="$LOCALIZE[33060]" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="803" />
