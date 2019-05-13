@@ -104,10 +104,10 @@
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoMovieButton)"/>
 					</include>
 				</control>
-				<control type="group" id="45000">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),videoclub)</visible>
+				<!-- control type="group" id="45000">
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),netflix)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="videoclub"/>
+						<param name="id" value="netflix"/>
 					</include>
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
@@ -129,9 +129,9 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45500"/>
-						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoVideoclubButton)"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoNetflixButton)"/>
 					</include>
-				</control>
+				</control -->
 				<control type="group" id="45300">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
 					<include content="Visible_Right_Delayed">
@@ -966,8 +966,8 @@
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Netflix",return)</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
 							<thumb>icons/sidemenu/netflix.png</thumb>
-							<property name="id">videoclub</property>
-							<visible>!Skin.HasSetting(HomeMenuNoVideoclubButton)</visible>
+							<property name="id">netflix</property>
+							<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[40009]</label>
