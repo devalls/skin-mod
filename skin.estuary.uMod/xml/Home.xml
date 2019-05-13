@@ -160,7 +160,7 @@
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTvondemandButton)"/>
 					</include>
 				</control>
-				<control type="group" id="46000">
+				<!-- control type="group" id="46000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),games)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="games"/>
@@ -181,8 +181,8 @@
 						<param name="button_id" value="46500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoGamesButton)"/>
 					</include>
-				</control>
-				<control type="group" id="47000">
+				</control -->
+				<!-- control type="group" id="47000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),grantorrent)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="grantorrent"/>
@@ -209,7 +209,7 @@
 						<param name="button_id" value="47500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoGrantorrentButton)"/>
 					</include>
-				</control>
+				</control -->
 				<control type="group" id="6000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvshows)</visible>
 					<include content="Visible_Right_Delayed">
@@ -953,14 +953,14 @@
 							<property name="id">radio</property>
 							<visible>!Skin.HasSetting(HomeMenuNoRadioButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[40008]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdhbGwnLCAndGh1bWInOiAndGh1bWIvZ3JhbnRvcnJlbnQucG5nJywgJ25hbWUnOiAnR3JhbnRvcnJlbnQnLCAnZmFuYXJ0JzogJ2ZhbmFydC9ncmFudG9ycmVudC5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci9ncmFudG9ycmVudC5wbmcnLCAnbGFiZWwnOiAnR3JhbnRvcnJlbnQnLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICdpdGVtcycsICdhY3Rpb24nOiAnbWFpbmxpc3QnLCAndHlwZSc6ICdjaGFubmVsJywgJ2NoYW5uZWwnOiAnZ3JhbnRvcnJlbnQnLCAnaWNvbic6ICdpY29uL2dyYW50b3JyZW50LnBuZyd9&quot;,return)</onclick>
 							<property name="menu_id">$NUMBER[47000]</property>
 							<thumb>icons/sidemenu/play.png</thumb>
 							<property name="id">grantorrent</property>
 							<visible>!Skin.HasSetting(HomeMenuNoGrantorrentButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[40001]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Netflix",return)</onclick>
@@ -985,14 +985,14 @@
 							<property name="id">music</property>
 							<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[40004]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Retroarch",return)</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/Retroarch3.png</thumb>
 							<property name="id">games</property>
 							<visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[24001]</label>
 							<property name="menu_id">$NUMBER[8000]</property>

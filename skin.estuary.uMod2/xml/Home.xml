@@ -1007,14 +1007,14 @@
 							<property name="id">tvshows</property>
 							<visible>!Skin.HasSetting(HomeMenuNoTVShowButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[2]</label>
 							<onclick>ActivateWindow(Music,root,return)</onclick>
 							<property name="menu_id">$NUMBER[7000]</property>
 							<thumb>icons/sidemenu/music.png</thumb>
 							<property name="id">music</property>
 							<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[427]</label>
 							<onclick>PlayDisc</onclick>

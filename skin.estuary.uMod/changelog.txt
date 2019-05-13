@@ -1,5 +1,6 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]•2.9.9[/B] Add icon in sidemenu.[/COLOR]
+[COLOR green][B]•3.0.0[/B] Changed items menu.[/COLOR]
+[COLOR yellow][B]•2.9.9[/B] Add icon in sidemenu.[/COLOR]
 [COLOR yellow][B]•2.9.8[/B] Change categories GT/NF.[/COLOR]
 [COLOR yellow][B]•2.9.0[/B] Change categories PM and update Screenshot.[/COLOR]
 [COLOR yellow][B]•2.8.9[/B] Update languages.[/COLOR]
