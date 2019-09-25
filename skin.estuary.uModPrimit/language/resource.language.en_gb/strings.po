@@ -799,11 +799,11 @@ msgstr ""
 #: /xml/Home.xml
 msgctxt "#40010"
 msgid "DAZN"
-msgstr "DAZN"
+msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40011"
-msgid "Tv3"
-msgstr "Tv3"
+msgid "Tv3 a la carta"
+msgstr ""
 
 

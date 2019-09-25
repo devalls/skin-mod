@@ -653,7 +653,7 @@ msgstr "DAZN"
 
 #: /xml/Home.xml
 msgctxt "#40011"
-msgid "Tv3"
-msgstr "Tv3"
+msgid "Tv3 a la carta"
+msgstr "Tv3 a la carta"
 
 
