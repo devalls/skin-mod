@@ -133,7 +133,7 @@
 					</include>
 				</control -->
 				<control type="group" id="45300">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tv3)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="tv3"/>
 					</include>
@@ -970,7 +970,7 @@
 							<visible>!Skin.HasSetting(HomeMenuNoDaznButton)</visible>
 						</item-->
 						<item>
-							<label>$LOCALIZE[40009]</label>
+							<label>$LOCALIZE[40011]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.tv3.cat/",return)</onclick>
 							<property name="menu_id">$NUMBER[45300]</property>
 							<thumb>icons/sidemenu/3.png</thumb>
