@@ -135,7 +135,7 @@
 				<control type="group" id="45300">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="tvondemand"/>
+						<param name="id" value="tv3"/>
 					</include>
 					<control type="grouplist" id="45301">
 						<include>WidgetGroupListCommon</include>
@@ -975,7 +975,7 @@
 							<property name="menu_id">$NUMBER[45300]</property>
 							<thumb>icons/sidemenu/3.png</thumb>
 							<property name="id">tv3</property>
-							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
+							<visible>!Skin.HasSetting(HomeMenuNoTv3Button)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[40000]</label>

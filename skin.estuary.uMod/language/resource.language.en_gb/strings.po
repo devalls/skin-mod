@@ -796,3 +796,14 @@ msgctxt "#40009"
 msgid "Fibracat TV"
 msgstr ""
 
+#: /xml/Home.xml
+msgctxt "#40010"
+msgid "DAZN"
+msgstr "DAZN"
+
+#: /xml/Home.xml
+msgctxt "#40011"
+msgid "Tv3"
+msgstr ""
+
+

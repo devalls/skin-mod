@@ -801,4 +801,9 @@ msgctxt "#40010"
 msgid "DAZN"
 msgstr ""
 
+#: /xml/Home.xml
+msgctxt "#40011"
+msgid "Tv3"
+msgstr ""
+
 
