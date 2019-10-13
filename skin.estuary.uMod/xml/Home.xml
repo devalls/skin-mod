@@ -1086,7 +1086,7 @@
 					<width>56</width>
 					<height>56</height>
 					<!-- texture colordiffuse="button_focus">icons/logo.png</texture -->
-					<texture colordiffuse="button_focus">https://github.com/devalls/media/raw/master/icons/logo2.png</texture>
+					<texture colordiffuse="button_focus">https://github.com/devalls/media/raw/master/icons/logo3.png</texture>
 				</control>
 				<control type="image">
 					<left>40</left>
@@ -1095,7 +1095,7 @@
 					<width>192</width>
 					<height>36</height>
 					<!-- texture>icons/logo-text.png</texture -->
-					<texture colordiffuse="red">https://github.com/devalls/media/raw/master/icons/logo-text2.png</texture>
+					<texture colordiffuse="red">https://github.com/devalls/media/raw/master/icons/logo-text3.png</texture>
 				</control>
 			</control>
 			<control type="rss">
