@@ -1218,8 +1218,29 @@
 					<aspectratio>keep</aspectratio>
 					<width>56</width>
 					<height>56</height>
-					<!-- texture colordiffuse="button_focus">icons/logo.png</texture -->
-					<texture colordiffuse="button_focus">https://github.com/devalls/media/raw/master/icons/logo3.png</texture>
+                                        <visible>system.date(01-10,10-27)</visible>
+					<texture colordiffuse="button_focus">icons/logo2.png</texture>
+				</control>
+				<control type="image">
+					<aspectratio>keep</aspectratio>
+					<width>56</width>
+					<height>56</height>
+                                        <visible>system.date(10-28,11-03)</visible>
+					<texture colordiffuse="button_focus">icons/logo2h.png</texture>
+				</control>
+				<control type="image">
+					<aspectratio>keep</aspectratio>
+					<width>56</width>
+					<height>56</height>
+                                        <visible>system.date(11-04,12-19)</visible>
+					<texture colordiffuse="button_focus">icons/logo2.png</texture>
+				</control>
+				<control type="image">
+					<aspectratio>keep</aspectratio>
+					<width>56</width>
+					<height>56</height>
+                                        <visible>system.date(12-20,01-09)</visible>
+					<texture colordiffuse="button_focus">icons/logo2n.png</texture>
 				</control>
 				<control type="image">
 					<left>40</left>
@@ -1227,8 +1248,35 @@
 					<aspectratio>keep</aspectratio>
 					<width>192</width>
 					<height>36</height>
-					<!-- texture>icons/logo-text.png</texture -->
-					<texture colordiffuse="red">https://github.com/devalls/media/raw/master/icons/logo-text3.png</texture>
+					<visible>system.date(01-10,10-27)</visible>
+					<texture colordiffuse="red">icons/logo-text2.png</texture>
+				</control>
+				<control type="image">
+					<left>40</left>
+					<top>10</top>
+					<aspectratio>keep</aspectratio>
+					<width>192</width>
+					<height>36</height>
+					<visible>system.date(10-28,11-03)</visible>
+					<texture colordiffuse="red">icons/logo-text2h.png</texture>
+				</control>
+				<control type="image">
+					<left>40</left>
+					<top>10</top>
+					<aspectratio>keep</aspectratio>
+					<width>192</width>
+					<height>36</height>
+					<visible>system.date(11-04,12-19)</visible>
+					<texture colordiffuse="red">icons/logo-text2.png</texture>
+				</control>
+				<control type="image">
+					<left>40</left>
+					<top>10</top>
+					<aspectratio>keep</aspectratio>
+					<width>192</width>
+					<height>36</height>
+					<visible>system.date(12-20,01-09)</visible>
+					<texture colordiffuse="red">icons/logo-text2n.png</texture>
 				</control>
 			</control>
 		</control>
