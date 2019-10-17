@@ -1043,6 +1043,7 @@
 					<ondown>PageUp</ondown>
 					<onright>2000</onright>
 					<align>justify</align>
+					<visible>system.date(01-10,10-27)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
@@ -1052,13 +1053,139 @@
 					<include content="IconButton">
 						<param name="control_id" value="802" />
 						<param name="onclick" value="ActivateWindow(settings)" />
-						<param name="icon" value="icons/settings.png" />
+						<param name="icon" value="icons/settings2.png" />
 						<param name="label" value="$LOCALIZE[21417]" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="804" />
 						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
-						<param name="icon" value="icons/power.png" />
+						<param name="icon" value="icons/power2.png" />
+						<param name="label" value="$LOCALIZE[33060]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="803" />
+						<param name="onclick" value="Fullscreen" />
+						<param name="icon" value="icons/now-playing/fullscreen.png" />
+						<param name="label" value="$LOCALIZE[31000]" />
+						<param name="visible" value="Player.HasMedia" />
+					</include>
+				</control>
+				<control type="grouplist" id="700">
+					<orientation>horizontal</orientation>
+					<itemgap>0</itemgap>
+					<left>-8</left>
+					<width>480</width>
+					<height>110</height>
+					<top>100</top>
+					<onup>SetFocus(9000)</onup>
+					<onup>PageDown</onup>
+					<onup>PageDown</onup>
+					<ondown>SetFocus(9000)</ondown>
+					<ondown>PageUp</ondown>
+					<ondown>PageUp</ondown>
+					<onright>2000</onright>
+					<align>justify</align>
+					<visible>system.date(10-28,11-03)</visible>
+					<include content="IconButton">
+						<param name="control_id" value="801" />
+						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="icon" value="icons/sidemenu/favourites2h.png" />
+						<param name="label" value="$LOCALIZE[10134]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="802" />
+						<param name="onclick" value="ActivateWindow(settings)" />
+						<param name="icon" value="icons/settings2h.png" />
+						<param name="label" value="$LOCALIZE[21417]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="804" />
+						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
+						<param name="icon" value="icons/power2h.png" />
+						<param name="label" value="$LOCALIZE[33060]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="803" />
+						<param name="onclick" value="Fullscreen" />
+						<param name="icon" value="icons/now-playing/fullscreen.png" />
+						<param name="label" value="$LOCALIZE[31000]" />
+						<param name="visible" value="Player.HasMedia" />
+					</include>
+				</control>
+				<control type="grouplist" id="700">
+					<orientation>horizontal</orientation>
+					<itemgap>0</itemgap>
+					<left>-8</left>
+					<width>480</width>
+					<height>110</height>
+					<top>100</top>
+					<onup>SetFocus(9000)</onup>
+					<onup>PageDown</onup>
+					<onup>PageDown</onup>
+					<ondown>SetFocus(9000)</ondown>
+					<ondown>PageUp</ondown>
+					<ondown>PageUp</ondown>
+					<onright>2000</onright>
+					<align>justify</align>
+					<visible>system.date(11-04,12-19)</visible>
+					<include content="IconButton">
+						<param name="control_id" value="801" />
+						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="icon" value="icons/sidemenu/favourites2.png" />
+						<param name="label" value="$LOCALIZE[10134]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="802" />
+						<param name="onclick" value="ActivateWindow(settings)" />
+						<param name="icon" value="icons/settings2.png" />
+						<param name="label" value="$LOCALIZE[21417]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="804" />
+						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
+						<param name="icon" value="icons/power2.png" />
+						<param name="label" value="$LOCALIZE[33060]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="803" />
+						<param name="onclick" value="Fullscreen" />
+						<param name="icon" value="icons/now-playing/fullscreen.png" />
+						<param name="label" value="$LOCALIZE[31000]" />
+						<param name="visible" value="Player.HasMedia" />
+					</include>
+				</control>
+				<control type="grouplist" id="700">
+					<orientation>horizontal</orientation>
+					<itemgap>0</itemgap>
+					<left>-8</left>
+					<width>480</width>
+					<height>110</height>
+					<top>100</top>
+					<onup>SetFocus(9000)</onup>
+					<onup>PageDown</onup>
+					<onup>PageDown</onup>
+					<ondown>SetFocus(9000)</ondown>
+					<ondown>PageUp</ondown>
+					<ondown>PageUp</ondown>
+					<onright>2000</onright>
+					<align>justify</align>
+					<visible>system.date(12-20,01-09)</visible>
+					<include content="IconButton">
+						<param name="control_id" value="801" />
+						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="icon" value="icons/sidemenu/favourites2n.png" />
+						<param name="label" value="$LOCALIZE[10134]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="802" />
+						<param name="onclick" value="ActivateWindow(settings)" />
+						<param name="icon" value="icons/settings2n.png" />
+						<param name="label" value="$LOCALIZE[21417]" />
+					</include>
+					<include content="IconButton">
+						<param name="control_id" value="804" />
+						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
+						<param name="icon" value="icons/power2n.png" />
 						<param name="label" value="$LOCALIZE[33060]" />
 					</include>
 					<include content="IconButton">

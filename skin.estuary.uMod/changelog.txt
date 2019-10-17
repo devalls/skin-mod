@@ -1,5 +1,6 @@
 [COLOR blue][B]Skin Estuary uMod[/B][/COLOR]
-[COLOR green][B]•3.1.0[/B] Add support Halloween Xmas logos.[/COLOR]
+[COLOR green][B]•3.1.1[/B] Add more Halloween and Xmas logos.[/COLOR]
+[COLOR yellow][B]•3.1.0[/B] Add support Halloween and Xmas logos.[/COLOR]
 [COLOR yellow][B]•3.0.5[/B] Add requires.[/COLOR]
 [COLOR yellow][B]•3.0.3[/B] Minor bug fix.[/COLOR]
 [COLOR yellow][B]•3.0.0[/B] Changed items menu.[/COLOR]
