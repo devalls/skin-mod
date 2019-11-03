@@ -1047,7 +1047,7 @@
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
-						<param name="icon" value="icons/sidemenu/favourites2.png" />
+						<param name="icon" value="icons/favourites2.png" />
 						<param name="label" value="$LOCALIZE[10134]" />
 					</include>
 					<include content="IconButton">
@@ -1089,7 +1089,7 @@
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
-						<param name="icon" value="icons/sidemenu/favourites2h.png" />
+						<param name="icon" value="icons/favourites2h.png" />
 						<param name="label" value="$LOCALIZE[10134]" />
 					</include>
 					<include content="IconButton">
@@ -1131,7 +1131,7 @@
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
-						<param name="icon" value="icons/sidemenu/favourites2.png" />
+						<param name="icon" value="icons/favourites2.png" />
 						<param name="label" value="$LOCALIZE[10134]" />
 					</include>
 					<include content="IconButton">
@@ -1173,7 +1173,7 @@
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
-						<param name="icon" value="icons/sidemenu/favourites2n.png" />
+						<param name="icon" value="icons/favourites2n.png" />
 						<param name="label" value="$LOCALIZE[10134]" />
 					</include>
 					<include content="IconButton">
