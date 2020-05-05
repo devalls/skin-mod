@@ -598,8 +598,8 @@ msgstr "Primevideo"
 
 #: /xml/Home.xml
 msgctxt "#40004"
-msgid "Retroarch"
-msgstr "Retroarch"
+msgid "Microcanales"
+msgstr "Microcanales"
 
 #: /xml/Home.xml
 msgctxt "#45005"

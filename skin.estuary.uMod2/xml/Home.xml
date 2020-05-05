@@ -1072,6 +1072,14 @@
 							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
 						</item>
 						<item>
+							<label>$LOCALIZE[40004]</label>
+							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Microcanales",return)</onclick>
+							<property name="menu_id">$NUMBER[46000]</property>
+							<thumb>icons/sidemenu/microcanales.png</thumb>
+							<property name="id">microcanales</property>
+							<visible>!Skin.HasSetting(HomeMenuNoMicrocanalesButton)</visible>
+						</item>
+						<item>
 							<label>$LOCALIZE[40000]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=spotify",return)</onclick>
 							<property name="menu_id">$NUMBER[7000]</property>
@@ -1079,14 +1087,6 @@
 							<property name="id">music</property>
 							<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 						</item>
-						<!--item>
-							<label>$LOCALIZE[40004]</label>
-							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Retroarch",return)</onclick>
-							<property name="menu_id">$NUMBER[46000]</property>
-							<thumb>icons/sidemenu/Retroarch3.png</thumb>
-							<property name="id">games</property>
-							<visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
-						</item-->
 						<item>
 							<label>$LOCALIZE[15016]</label>
 							<property name="menu_id">$NUMBER[17000]</property>
