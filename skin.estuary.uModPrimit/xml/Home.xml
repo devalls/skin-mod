@@ -1043,7 +1043,7 @@
 					<ondown>PageUp</ondown>
 					<onright>2000</onright>
 					<align>justify</align>
-					<visible>system.date(01-10,10-28)</visible>
+					<visible>system.date(01-10,10-24)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
@@ -1085,7 +1085,7 @@
 					<ondown>PageUp</ondown>
 					<onright>2000</onright>
 					<align>justify</align>
-					<visible>system.date(10-28,11-04)</visible>
+					<visible>system.date(10-24,11-03)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
@@ -1127,7 +1127,7 @@
 					<ondown>PageUp</ondown>
 					<onright>2000</onright>
 					<align>justify</align>
-					<visible>system.date(11-04,12-20)</visible>
+					<visible>system.date(11-03,12-20)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(favourites)" />
@@ -1212,21 +1212,21 @@
 					<aspectratio>keep</aspectratio>
 					<width>56</width>
 					<height>56</height>
-                                        <visible>system.date(01-10,10-28)</visible>
+                                        <visible>system.date(01-10,10-24)</visible>
 					<texture colordiffuse="button_focus">icons/logo2.png</texture>
 				</control>
 				<control type="image">
 					<aspectratio>keep</aspectratio>
 					<width>56</width>
 					<height>56</height>
-                                        <visible>system.date(10-28,11-04)</visible>
+                                        <visible>system.date(10-24,11-03)</visible>
 					<texture colordiffuse="button_focus">icons/logo2h.png</texture>
 				</control>
 				<control type="image">
 					<aspectratio>keep</aspectratio>
 					<width>56</width>
 					<height>56</height>
-                                        <visible>system.date(11-04,12-20)</visible>
+                                        <visible>system.date(11-03,12-20)</visible>
 					<texture colordiffuse="button_focus">icons/logo2.png</texture>
 				</control>
 				<control type="image">
@@ -1242,7 +1242,7 @@
 					<aspectratio>keep</aspectratio>
 					<width>192</width>
 					<height>36</height>
-					<visible>system.date(01-10,10-28)</visible>
+					<visible>system.date(01-10,10-24)</visible>
 					<texture colordiffuse="red">icons/logo-text2p.png</texture>
 				</control>
 				<control type="image">
@@ -1251,7 +1251,7 @@
 					<aspectratio>keep</aspectratio>
 					<width>192</width>
 					<height>36</height>
-					<visible>system.date(10-28,11-04)</visible>
+					<visible>system.date(10-24,11-03)</visible>
 					<texture colordiffuse="red">icons/logo-text2h.png</texture>
 				</control>
 				<control type="image">
@@ -1260,7 +1260,7 @@
 					<aspectratio>keep</aspectratio>
 					<width>192</width>
 					<height>36</height>
-					<visible>system.date(11-04,12-20)</visible>
+					<visible>system.date(11-03,12-20)</visible>
 					<texture colordiffuse="red">icons/logo-text2p.png</texture>
 				</control>
 				<control type="image">
