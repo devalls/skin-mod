@@ -603,13 +603,13 @@ msgstr "Microcanales"
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "HDTorrents premieres"
-msgstr "Novedades HDTorrents"
+msgid "Anime Movies"
+msgstr "Películas Anime"
 
 #: /xml/Home.xml
 msgctxt "#45006"
-msgid "Top ten HDTorrents"
-msgstr "Top ten HDTorrents"
+msgid "Anime TV Shows"
+msgstr "Series Anime"
 
 #: /xml/Home.xml
 msgctxt "#45305"

@@ -108,7 +108,7 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<!--control type="group" id="45000">
+				<control type="group" id="45000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),netflix)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="netflix"/>
@@ -116,13 +116,13 @@
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdhbGwnLCAnbmFtZSc6ICdIRFRvcnJlbnRzJywgJ2ZhbmFydCc6ICdmYW5hcnQvaGR0b3JyZW50cy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci9oZHRvcnJlbnRzLnBuZycsICdsYWJlbCc6ICdOb3ZlZGFkZXMnLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICdtb3ZpZXMnLCAnYWN0aW9uJzogJ21vdmllcycsICdpY29uJzogJ2ljb24vaGR0b3JyZW50cy5wbmcnLCAndHlwZSc6ICdpdGVtJywgJ2NoYW5uZWwnOiAnaGR0b3JyZW50cycsICd0aHVtYic6ICd0aHVtYi9oZHRvcnJlbnRzLnBuZyd9&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.palantir2/?eydvcmRlbic6IDIsICdmYW5hcnQnOiAnL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5wYWxhbnRpcjIvZmFuYXJ0LmdpZicsICdsYWJlbCc6IHUnW0NPTE9SIGdvbGRdICAgIFx4ZGFsdGltIGFmZWdpdFsvQ09MT1JdJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnc3FsJzogdSJTRUxFQ1Qgbm9tYnJlLCBhbm5vLCBzaW5vcHNpcywgY2FyYXR1bGEsIHBvc3RlciwgZ3JvdXBfaWQsIEdST1VQX0NPTkNBVCh0YWdzLCcjJyksdG1kYlxyXHJcbkZST00gcGVsaXMgV0hFUkUgYWN0aXZlID4gMCBhbmQgY2F0ZWdvcnk9J0FuaW1lJyBncm91cCBieSBncm91cF9pZCBvcmRlciBieSB1cGRhdGVkIGRlc2MsIGFubm8gZGVzYzsiLCAnYWN0aW9uJzogdSdsaXN0YWRvX3BlbGljdWxhcycsICdwYWdlJzogMCwgJ2ljb24nOiB1J2h0dHBzOi8vZ2l0aHViLmNvbS9QYWxhbnRpcmFkZG9uL1BhbGFudGlyL3Jhdy9tYXN0ZXIvbWVkaWEvbmVra28vYW5pbWUucG5nJ30%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45005]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45100"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdhbGwnLCAnbmFtZSc6ICdIRFRvcnJlbnRzJywgJ2ZhbmFydCc6ICdmYW5hcnQvaGR0b3JyZW50cy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci9oZHRvcnJlbnRzLnBuZycsICdsYWJlbCc6ICdUb3AgdGVuIHRvcnJlbnRzJywgJ3VybCc6ICdodHRwczovL3d3dy5oZHRvcnJlbnRzLmluZm8vdG9ycmVudHMnLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICdtb3ZpZXMnLCAnYWN0aW9uJzogJ21vdmllcycsICdpY29uJzogJ2ljb24vaGR0b3JyZW50cy5wbmcnLCAndHlwZSc6ICdpdGVtJywgJ2NoYW5uZWwnOiAnaGR0b3JyZW50cycsICd0aHVtYic6ICd0aHVtYi9oZHRvcnJlbnRzLnBuZyd9&quot;"/>
+							<param name="content_path" value="plugin://plugin.video.palantir2/?eydvcmRlbic6IDIsICdmYW5hcnQnOiAnL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5wYWxhbnRpcjIvZmFuYXJ0LmdpZicsICdsYWJlbCc6IHUnW0NPTE9SIGdvbGRdICAgIE5vdmVzIHNceGU4cmllc1svQ09MT1JdJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnc3FsJzogdSJTZWxlY3Qgbm9tYnJlLCBhbm5vLCBzaW5vcHNpcywgY2FyYXR1bGEscG9zdGVyLCBzZXJpZV9pZCwgYXVkaW8sIHRtZGIsIGxpbmssIGhhc19jb250ZW50XHJcclxuZnJvbSBzZXJpZXMgd2hlcmUgYWN0aXZlID4gMCBhbmQgY2F0ZWdvcnkgUkVHRVhQICdBbmltZSdcclxyXG5vcmRlciBieSBhbm5vIGRlc2MsIHVwZGF0ZWQgZGVzYyIsICdhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ3BhZ2UnOiAwLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnfQ%3d%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45006]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
@@ -135,7 +135,7 @@
 						<param name="button_id" value="45500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoNetflixButton)"/>
 					</include>
-				</control-->
+				</control>
 				<control type="group" id="45300">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
 					<include content="Visible_Right_Delayed">

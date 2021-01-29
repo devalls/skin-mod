@@ -793,12 +793,12 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "HDTorrents premieres"
+msgid "Anime Movies"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45006"
-msgid "Top ten HDTorrents"
+msgid "Anime TV Shows"
 msgstr ""
 
 #: /xml/Home.xml
