@@ -583,8 +583,8 @@ msgstr "Spotify"
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Netflix"
-msgstr "Netflix"
+msgid "Palantir2"
+msgstr "Palantir2"
 
 #: /xml/Home.xml
 msgctxt "#40002"

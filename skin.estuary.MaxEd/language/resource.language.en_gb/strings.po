@@ -773,7 +773,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Netflix"
+msgid "Palantir2"
 msgstr ""
 
 #: /xml/Home.xml
