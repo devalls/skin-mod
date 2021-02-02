@@ -135,7 +135,7 @@
 	</variable>
 	<variable name="WidgetStudioIconVar">
 		<value condition="System.HasAddon(resource.images.studios.white)">$INFO[ListItem.Label,resource://resource.images.studios.white/,.png]</value>
-		<value>DefaultStudio.png</value>
+		<value>DefaultStudios.png</value>
 	</variable>
 	<variable name="AddonsLabel2Var">
 		<value condition="ListItem.Property(addon.downloading)">$INFO[ListItem.Property(addon.status)]</value>
@@ -256,6 +256,7 @@
 		<value>[COLOR grey]$INFO[ListItem.Year, (,)][/COLOR]</value>
 	</variable>
 	<variable name="VideoInfoMainLabelVar">
+		<value condition="!String.IsEmpty(ListItem.TVShowTitle)">$INFO[ListItem.TVShowTitle]$INFO[ListItem.Year, ([COLOR grey],[/COLOR])]</value>
 		<value condition="!String.IsEmpty(ListItem.Title)">$INFO[ListItem.Title]$INFO[ListItem.Year, ([COLOR grey],[/COLOR])]</value>
 		<value>$INFO[ListItem.Label]$INFO[ListItem.Year, ([COLOR grey],[/COLOR])]</value>
 	</variable>
@@ -264,13 +265,21 @@
 		<value>$LOCALIZE[208]</value>
 	</variable>
 	<variable name="VideoInfoSubLabelVar">
-		<value condition="String.IsEqual(ListItem.DBType,episode)">$INFO[ListItem.Season]$INFO[ListItem.Episode,[COLOR grey]x[/COLOR],: ]$INFO[ListItem.TVShowTitle]</value>
+		<value condition="String.IsEqual(ListItem.DBType,episode)">$INFO[ListItem.Season]$INFO[ListItem.Episode,[COLOR grey]x[/COLOR],: ]$INFO[ListItem.Title]</value>
 		<value condition="String.IsEqual(ListItem.DBType,movie)">$INFO[ListItem.Tagline,[I],[/I]]</value>
 		<value>$INFO[ListItem.Genre]</value>
 	</variable>
 	<variable name="VideoInfoBottomLabelVar">
 		<value condition="Control.HasFocus(8)">$INFO[ListItem.LastPlayed,$LOCALIZE[568]: ]</value>
 		<value condition="Control.HasFocus(6)">$INFO[ListItem.FileNameAndPath]</value>
+	</variable>
+	<variable name="PictureInfoMainLabelVar">
+		<value condition="Window.IsActive(Slideshow)">$INFO[SlideShow.Filename]</value>
+		<value>$INFO[ListItem.Label]</value>
+	</variable>
+	<variable name="PictureInfoSubLabelVar">
+		<value condition="Window.IsActive(Slideshow)">$INFO[SlideShow.EXIFtime]</value>
+		<value>$INFO[ListItem.PictureDateTime]</value>
 	</variable>
 	<variable name="NowPlayingBreadcrumbsVar">
 		<value condition="VideoPlayer.Content(livetv)">$INFO[VideoPlayer.Title]</value>
@@ -308,11 +317,9 @@
 		<value condition="!String.IsEmpty(Skin.String(HomeFanart.path)) + Control.HasFocus(801)">$INFO[Skin.String(HomeFanart.path)]search$INFO[Skin.String(HomeFanart.ext)]</value>
 		<value condition="!String.IsEmpty(Skin.String(HomeFanart.path))">$INFO[Skin.String(HomeFanart.path)]$INFO[Container(9000).ListItem.Property(id)]$INFO[Skin.String(HomeFanart.ext)]</value>
 		<value condition="!String.IsEmpty(Container(45100).ListItem.Art(fanart)) + Control.HasFocus(45100)">$INFO[Container(45100).ListItem.Art(fanart)]</value>
-		<value condition="!String.IsEmpty(Container(45200).ListItem.Art(fanart)) + Control.HasFocus(45200)">$INFO[Container(45200).ListItem.Art(fanart)]</value>
-		<value condition="!String.IsEmpty(Container(45400).ListItem.Art(fanart)) + Control.HasFocus(45400)">$INFO[Container(45400).ListItem.Art(fanart)]</value>
-		<value condition="!String.IsEmpty(Container(45600).ListItem.Art(fanart)) + Control.HasFocus(45600)">$INFO[Container(45600).ListItem.Art(fanart)]</value>
-		<value condition="!String.IsEmpty(Container(47100).ListItem.Art(fanart)) + Control.HasFocus(47100)">$INFO[Container(47100).ListItem.Art(fanart)]</value>
-		<value condition="!String.IsEmpty(Container(47200).ListItem.Art(fanart)) + Control.HasFocus(47200)">$INFO[Container(47200).ListItem.Art(fanart)]</value>
+               <value condition="!String.IsEmpty(Container(45200).ListItem.Art(fanart)) + Control.HasFocus(45200)">$INFO[Container(45200).ListItem.Art(fanart)]</value>
+               <value condition="!String.IsEmpty(Container(45400).ListItem.Art(fanart)) + Control.HasFocus(45400)">$INFO[Container(45400).ListItem.Art(fanart)]</value>
+               <value condition="!String.IsEmpty(Container(45600).ListItem.Art(fanart)) + Control.HasFocus(45600)">$INFO[Container(45600).ListItem.Art(fanart)]</value>
 	</variable>
 	<variable name="MediaFanartVar">
 		<value condition="Skin.HasSetting(no_fanart)"></value>

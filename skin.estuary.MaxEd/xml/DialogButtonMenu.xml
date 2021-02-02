@@ -18,19 +18,40 @@
 				<include>ButtonMenuList</include>
 				<content>
 					<item>
+						<label>$LOCALIZE[13012]</label>
+						<onclick>Quit()</onclick>
+						<visible>System.ShowExitButton</visible>
+					</item>
+					<item>
 						<label>$LOCALIZE[13016]</label>
-						<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Shutdown",return)</onclick>
+						<onclick>Powerdown()</onclick>
 						<visible>System.CanPowerDown</visible>
 					</item>
 					<item>
-						<label>$LOCALIZE[13013]</label>
-						<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Reboot",return)</onclick>
-						<visible>System.CanReboot</visible>
+						<label>$LOCALIZE[20150]</label>
+						<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
+						<visible>!System.HasAlarm(shutdowntimer)</visible>
+						<visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible>
 					</item>
 					<item>
-						<label>$LOCALIZE[13012]</label>
-						<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=RestartKodi",return)</onclick>
-						<visible>System.ShowExitButton</visible>
+						<label>$LOCALIZE[20151] $INFO[System.AlarmPos,(,)]</label>
+						<onclick>CancelAlarm(shutdowntimer)</onclick>
+						<visible>System.HasAlarm(shutdowntimer)</visible>
+					</item>
+					<item>
+						<label>$LOCALIZE[13011]</label>
+						<onclick>Suspend()</onclick>
+						<visible>System.CanSuspend</visible>
+					</item>
+					<item>
+						<label>$LOCALIZE[13010]</label>
+						<onclick>Hibernate()</onclick>
+						<visible>System.CanHibernate</visible>
+					</item>
+					<item>
+						<label>$LOCALIZE[13013]</label>
+						<onclick>Reset()</onclick>
+						<visible>System.CanReboot</visible>
 					</item>
 					<item>
 						<label>$LOCALIZE[20126] $INFO[system.profilename]</label>

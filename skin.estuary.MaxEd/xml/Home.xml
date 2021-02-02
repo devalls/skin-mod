@@ -109,9 +109,9 @@
 					</include>
 				</control>
 				<control type="group" id="45000">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),netflix)</visible>
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),palantir2)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="netflix"/>
+						<param name="id" value="Palantir2"/>
 					</include>
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
@@ -121,23 +121,23 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45100"/>
 						</include>
-						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
+						<include content="WidgetListPoster" condition="Library.HasContent(tvshows)">
 							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9tYXNfdmlzdGFzX3Nlcmllcy5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBub3QgUkVHRVhQICdEb2N1bWVudGFsfE11c2ljYXxBbmltZXxEaWJ1am9zJyBcclxyXG5vcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45006]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
 						</include>
-					<include content="WidgetListPoster" condition="Library.HasContent(movies)">
+					        <include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fcGVsaWN1bGFzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNFTEVDVCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSwgcG9zdGVyLCBncm91cF9pZCwgR1JPVVBfQ09OQ0FUKHRhZ3MsJyMnKSx0bWRiIEZST00gcGVsaXMgV0hFUkUgYWN0aXZlID4gMCBhbmQgY2F0ZWdvcnk9J0FuaW1lJyBncm91cCBieSBncm91cF9pZCBvcmRlciBieSBzdW0odmlld3MpIGRlc2MsIGFubm8gZGVzYzsifQ%3d%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45007]"/>
 							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="45100"/>
+							<param name="list_id" value="45400"/>
 						</include>
-						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
+						<include content="WidgetListPoster" condition="Library.HasContent(tvshows)">
 							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBSRUdFWFAgJ0FuaW1lJyBvcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45008]"/>
 							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="45200"/>
+							<param name="list_id" value="45600"/>
 						</include>
 					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
@@ -145,7 +145,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45500"/>
-						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoNetflixButton)"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoPalantir2Button)"/>
 					</include>
 				</control>
 				<control type="group" id="6000">
@@ -966,14 +966,6 @@
 							<visible>!Skin.HasSetting(HomeMenuNoMusicVideoButton)</visible>
 						</item>
 						<item>
-							<label>$LOCALIZE[40001]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.palantir2/",return)</onclick>
-							<property name="menu_id">$NUMBER[45000]</property>
-							<thumb>icons/sidemenu/play.png</thumb>
-							<property name="id">palantir2</property>
-							<visible>!Skin.HasSetting(HomeMenuNoPalantir2Button)</visible>
-						</item>
-						<item>
 							<label>$LOCALIZE[19020]</label>
 							<property name="menu_id">$NUMBER[12000]</property>
 							<onclick>ActivateWindow(TVChannels)</onclick>
@@ -988,6 +980,14 @@
 							<thumb>icons/sidemenu/radio.png</thumb>
 							<property name="id">radio</property>
 							<visible>!Skin.HasSetting(HomeMenuNoRadioButton)</visible>
+						</item>
+						<item>
+							<label>$LOCALIZE[40001]</label>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.palantir2/",return)</onclick>
+							<property name="menu_id">$NUMBER[45000]</property>
+							<thumb>icons/sidemenu/pordedeicon.png</thumb>
+							<property name="id">palantir2</property>
+							<visible>!Skin.HasSetting(HomeMenuNoPalantir2Button)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[15016]</label>
