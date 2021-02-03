@@ -121,7 +121,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45100"/>
 						</include>
-						<include content="WidgetListPoster" condition="Library.HasContent(tvshows)">
+						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9tYXNfdmlzdGFzX3Nlcmllcy5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBub3QgUkVHRVhQICdEb2N1bWVudGFsfE11c2ljYXxBbmltZXxEaWJ1am9zJyBcclxyXG5vcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45006]"/>
 							<param name="widget_target" value="videos"/>
@@ -133,7 +133,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45400"/>
 						</include>
-						<include content="WidgetListPoster" condition="Library.HasContent(tvshows)">
+						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBSRUdFWFAgJ0FuaW1lJyBvcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45008]"/>
 							<param name="widget_target" value="videos"/>
