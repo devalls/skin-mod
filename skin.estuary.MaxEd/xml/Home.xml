@@ -109,9 +109,9 @@
 					</include>
 				</control>
 				<control type="group" id="45000">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),palantir2)</visible>
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tacones)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="Palantir2"/>
+						<param name="id" value="Tacones"/>
 					</include>
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
@@ -133,7 +133,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45500"/>
-						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoPalantir2Button)"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTaconesButton)"/>
 					</include>
 				</control>
 				<control type="group" id="6000">
@@ -973,9 +973,9 @@
 							<label>$LOCALIZE[40001]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdhbGwnLCAndGh1bWInOiAndGh1bWIvdGFjb25lcy5wbmcnLCAnbmFtZSc6ICdUYWNvbmVzJywgJ2ZhbmFydCc6ICdmYW5hcnQvdGFjb25lcy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci90YWNvbmVzLnBuZycsICdjdXN0b20nOiBUcnVlLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICdpdGVtcycsICdhY3Rpb24nOiAnbWFpbmxpc3QnLCAnbGFiZWwnOiAnVGFjb25lcycsICd0eXBlJzogJ2NoYW5uZWwnLCAnY2hhbm5lbCc6ICd0YWNvbmVzJywgJ2ljb24nOiAnaWNvbi90YWNvbmVzLnBuZyd9",return)</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
-							<thumb>icons/sidemenu/pordedeicon.png</thumb>
-							<property name="id">palantir2</property>
-							<visible>!Skin.HasSetting(HomeMenuNoPalantir2Button)</visible>
+							<thumb>icons/sidemenu/play.png</thumb>
+							<property name="id">Tacones</property>
+							<visible>!Skin.HasSetting(HomeMenuNoTaconesButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[15016]</label>
