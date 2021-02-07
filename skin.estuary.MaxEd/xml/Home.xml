@@ -116,28 +116,16 @@
 					<control type="grouplist" id="45001">
 						<include>WidgetGroupListCommon</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fcGVsaWN1bGFzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9wZWxpY3VsYXMucG5nJywgJ2xhYmVsJzogdSdbQ09MT1IgZ29sZF0gICAgTVx4ZTlzIHZpc3Rlc1svQ09MT1JdJywgJ29yZGVuJzogMiwgJ3BhZ2UnOiAwLCAnc3FsJzogdSJTRUxFQ1Qgbm9tYnJlLCBhbm5vLCBzaW5vcHNpcywgY2FyYXR1bGEsIHBvc3RlciwgZ3JvdXBfaWQsIEdST1VQX0NPTkNBVCh0YWdzLCcjJyksdG1kYiBGUk9NIHBlbGlzIFdIRVJFIGFjdGl2ZSA%2bIDAgIGdyb3VwIGJ5IGdyb3VwX2lkIG9yZGVyIGJ5IHN1bSh2aWV3cykgZGVzYywgYW5ubyBkZXNjIn0%3d"/>
+							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdtb3ZpZScsICdncm91cCc6IFRydWUsICduYW1lJzogJ1RhY29uZXMnLCAnaWNvbic6ICdpY29uL21vdmllLnBuZycsICdmYW5hcnQnOiAnZmFuYXJ0L3RhY29uZXMuanBnJywgJ3Bvc3Rlcic6ICdwb3N0ZXIvbW92aWUucG5nJywgJ2xhYmVsJzogJ1BlbFx4YzNceGFkY3VsYXMgYWxlYXRvcmlhcycsICd1cmwnOiAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rhcmtvem1hL3RhY29uZXMvbWFpbi9udWV2bycsICdhZHVsdCc6IEZhbHNlLCAnY29udGVudF90eXBlJzogJ21vdmllcycsICdhY3Rpb24nOiAnbW92aWVzJywgJ2N1c3RvbSc6IFRydWUsICd0eXBlJzogJ2l0ZW0nLCAnY2hhbm5lbCc6ICd0YWNvbmVzJywgJ3RodW1iJzogJ3RodW1iL21vdmllLnBuZyd9"/>
 							<param name="widget_header" value="$LOCALIZE[45005]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45100"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9tYXNfdmlzdGFzX3Nlcmllcy5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBub3QgUkVHRVhQICdEb2N1bWVudGFsfE11c2ljYXxBbmltZXxEaWJ1am9zJyBcclxyXG5vcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
+							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICd0dnNob3cnLCAnZ3JvdXAnOiBUcnVlLCAnbmFtZSc6ICdUYWNvbmVzJywgJ2ljb24nOiAnaWNvbi90dnNob3cucG5nJywgJ2ZhbmFydCc6ICdmYW5hcnQvdGFjb25lcy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci90dnNob3cucG5nJywgJ2xhYmVsJzogJ1NlcmllcyBhbGVhdG9yaWFzJywgJ3VybCc6ICdodHRwczovL3Bhc3RlYmluLmNvbS9yYXcvSnFmczBqUXQnLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICd0dnNob3dzJywgJ2FjdGlvbic6ICd0dnNob3dzJywgJ2N1c3RvbSc6IFRydWUsICd0eXBlJzogJ2l0ZW0nLCAnY2hhbm5lbCc6ICd0YWNvbmVzJywgJ3RodW1iJzogJ3RodW1iL3R2c2hvdy5wbmcnfQ%3d%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45006]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
-						</include>
-					        <include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fcGVsaWN1bGFzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNFTEVDVCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSwgcG9zdGVyLCBncm91cF9pZCwgR1JPVVBfQ09OQ0FUKHRhZ3MsJyMnKSx0bWRiIEZST00gcGVsaXMgV0hFUkUgYWN0aXZlID4gMCBhbmQgY2F0ZWdvcnk9J0FuaW1lJyBncm91cCBieSBncm91cF9pZCBvcmRlciBieSBzdW0odmlld3MpIGRlc2MsIGFubm8gZGVzYzsifQ%3d%3d"/>
-							<param name="widget_header" value="$LOCALIZE[45007]"/>
-							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="45400"/>
-						</include>
-						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
-							<param name="content_path" value="plugin://plugin.video.palantir2/?eydhY3Rpb24nOiB1J2xpc3RhZG9fc2VyaWVzJywgJ2NvbnRlbnQnOiAnZmlsZXMnLCAnZmFuYXJ0JzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8ucGFsYW50aXIyL2ZhbmFydC5naWYnLCAnaWNvbic6IHUnaHR0cHM6Ly9naXRodWIuY29tL1BhbGFudGlyYWRkb24vUGFsYW50aXIvcmF3L21hc3Rlci9tZWRpYS9uZWtrby9hbmltZS5wbmcnLCAnbGFiZWwnOiB1J1tDT0xPUiBnb2xkXSAgICBNXHhlOXMgdmlzdGVzWy9DT0xPUl0nLCAnb3JkZW4nOiAyLCAncGFnZSc6IDAsICdzcWwnOiB1IlNlbGVjdCBub21icmUsIGFubm8sIHNpbm9wc2lzLCBjYXJhdHVsYSxwb3N0ZXIsIHNlcmllX2lkLCBhdWRpbywgdG1kYiwgbGluaywgaGFzX2NvbnRlbnRcclxyXG5mcm9tIHNlcmllcyB3aGVyZSBhY3RpdmUgPiAwIGFuZCBjYXRlZ29yeSBSRUdFWFAgJ0FuaW1lJyBvcmRlciBieSB2aWV3cyBkZXNjLCBhbm5vIGRlc2M7In0%3d"/>
-							<param name="widget_header" value="$LOCALIZE[45008]"/>
-							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="45600"/>
 						</include>
 					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
@@ -983,7 +971,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[40001]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.palantir2/",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICdhbGwnLCAndGh1bWInOiAndGh1bWIvdGFjb25lcy5wbmcnLCAnbmFtZSc6ICdUYWNvbmVzJywgJ2ZhbmFydCc6ICdmYW5hcnQvdGFjb25lcy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci90YWNvbmVzLnBuZycsICdjdXN0b20nOiBUcnVlLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICdpdGVtcycsICdhY3Rpb24nOiAnbWFpbmxpc3QnLCAnbGFiZWwnOiAnVGFjb25lcycsICd0eXBlJzogJ2NoYW5uZWwnLCAnY2hhbm5lbCc6ICd0YWNvbmVzJywgJ2ljb24nOiAnaWNvbi90YWNvbmVzLnBuZyd9",return)</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
 							<thumb>icons/sidemenu/pordedeicon.png</thumb>
 							<property name="id">palantir2</property>

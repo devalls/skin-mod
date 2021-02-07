@@ -773,7 +773,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Palantir2"
+msgid "Tacones ME"
 msgstr ""
 
 #: /xml/Home.xml

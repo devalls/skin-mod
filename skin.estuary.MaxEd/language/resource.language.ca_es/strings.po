@@ -547,8 +547,8 @@ msgstr "Spotify"
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Palantir2"
-msgstr "Palantir2"
+msgid "Tacones ME"
+msgstr "Tacones ME"
 
 #: /xml/Home.xml
 msgctxt "#40002"
