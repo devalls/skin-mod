@@ -127,7 +127,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
 						</include>
-					</control -->
+					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />
@@ -135,7 +135,7 @@
 						<param name="button_id" value="45500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoNetflixButton)"/>
 					</include>
-				</control>
+				</control -->
 				<control type="group" id="45300">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
 					<include content="Visible_Right_Delayed">
