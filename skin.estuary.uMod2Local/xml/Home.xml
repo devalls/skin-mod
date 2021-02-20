@@ -108,7 +108,7 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<control type="group" id="45000">
+				<!-- control type="group" id="45000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),netflix)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="netflix"/>
@@ -127,7 +127,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
 						</include>
-					</control>
+					</control -->
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />

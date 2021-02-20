@@ -108,7 +108,7 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<control type="group" id="45000">
+				<!-- control type="group" id="45000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),netflix)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="netflix"/>
@@ -135,7 +135,7 @@
 						<param name="button_id" value="45500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoNetflixButton)"/>
 					</include>
-				</control>
+				</control -->
 				<control type="group" id="45300">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
 					<include content="Visible_Right_Delayed">

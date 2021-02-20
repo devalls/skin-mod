@@ -773,7 +773,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Tacones ME"
+msgid "Torrents"
 msgstr ""
 
 #: /xml/Home.xml
@@ -793,7 +793,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "Movies"
+msgid "Premieres"
 msgstr ""
 
 #: /xml/Home.xml

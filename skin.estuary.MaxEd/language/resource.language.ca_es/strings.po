@@ -547,8 +547,8 @@ msgstr "Spotify"
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Tacones ME"
-msgstr "Tacones ME"
+msgid "Torrents"
+msgstr "Torrents"
 
 #: /xml/Home.xml
 msgctxt "#40002"
@@ -567,8 +567,8 @@ msgstr "Microcanales"
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "Movies"
-msgstr "Pel·lícules"
+msgid "Premieres"
+msgstr "Novetats"
 
 #: /xml/Home.xml
 msgctxt "#45006"
