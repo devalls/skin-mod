@@ -583,8 +583,8 @@ msgstr "Spotify"
 
 #: /xml/Home.xml
 msgctxt "#40001"
-msgid "Torrents"
-msgstr "Torrents"
+msgid "Sports"
+msgstr "Deportes"
 
 #: /xml/Home.xml
 msgctxt "#40002"
@@ -603,8 +603,8 @@ msgstr "Microcanales"
 
 #: /xml/Home.xml
 msgctxt "#45005"
-msgid "Premieres"
-msgstr "Novedades"
+msgid "Soccer"
+msgstr "Fútbol"
 
 #: /xml/Home.xml
 msgctxt "#45006"
