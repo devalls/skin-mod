@@ -108,7 +108,7 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<control type="group" id="45000">
+				<!-- control type="group" id="45000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),sports)</visible>
 					<include content="Visible_Right_Delayed">
 						<param name="id" value="Sports"/>
@@ -121,12 +121,12 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45100"/>
 						</include>
-						<!-- include content="WidgetListPoster" condition="Library.HasContent(movies)">
+						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
 							<param name="content_path" value="plugin://plugin.video.mediaexplorer/?eydjYXRlZ29yeSc6ICd0dnNob3cnLCAnZ3JvdXAnOiBUcnVlLCAnbmFtZSc6ICdUYWNvbmVzJywgJ2ljb24nOiAnaWNvbi90dnNob3cucG5nJywgJ2ZhbmFydCc6ICdmYW5hcnQvdGFjb25lcy5qcGcnLCAncG9zdGVyJzogJ3Bvc3Rlci90dnNob3cucG5nJywgJ2xhYmVsJzogJ1NlcmllcyBhbGVhdG9yaWFzJywgJ3VybCc6ICdodHRwczovL3Bhc3RlYmluLmNvbS9yYXcvSnFmczBqUXQnLCAnYWR1bHQnOiBGYWxzZSwgJ2NvbnRlbnRfdHlwZSc6ICd0dnNob3dzJywgJ2FjdGlvbic6ICd0dnNob3dzJywgJ2N1c3RvbSc6IFRydWUsICd0eXBlJzogJ2l0ZW0nLCAnY2hhbm5lbCc6ICd0YWNvbmVzJywgJ3RodW1iJzogJ3RodW1iL3R2c2hvdy5wbmcnfQ%3d%3d"/>
 							<param name="widget_header" value="$LOCALIZE[45006]"/>
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="45200"/>
-						</include -->
+						</include>
 					</control>
 					<include content="ImageWidget" condition="!Library.HasContent(movies)">
 						<param name="text_label" value="$LOCALIZE[31104]" />
@@ -135,7 +135,7 @@
 						<param name="button_id" value="45500"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoSportsButton)"/>
 					</include>
-				</control>
+				</control -->
 				<control type="group" id="6000">
 					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvshows)</visible>
 					<include content="Visible_Right_Delayed">
