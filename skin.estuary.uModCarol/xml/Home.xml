@@ -963,11 +963,11 @@
 						</item-->
 						<item>
 							<label>$LOCALIZE[40010]</label>
-							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Dazn",return)</onclick>
+							<onclick>ActivateWindow(10025,&quot;plugin://plugin.video.winner/&quot;,return)</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
-							<thumb>icons/sidemenu/dazn.png</thumb>
-							<property name="id">dazn</property>
-							<visible>!Skin.HasSetting(HomeMenuNoDaznButton)</visible>
+							<thumb>icons/sidemenu/play.png</thumb>
+							<property name="id">Sports</property>
+							<visible>!Skin.HasSetting(HomeMenuNoSportsButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[40009]</label>

@@ -798,7 +798,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40010"
-msgid "DAZN"
+msgid "Sports"
 msgstr ""
 
 #: /xml/Home.xml
