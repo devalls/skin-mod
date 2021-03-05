@@ -778,12 +778,12 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40002"
-msgid "HBO"
+msgid "Documentaries"
 msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#40003"
-msgid "Primevideo"
+msgid "IPTV"
 msgstr ""
 
 #: /xml/Home.xml

@@ -552,13 +552,13 @@ msgstr "Esports"
 
 #: /xml/Home.xml
 msgctxt "#40002"
-msgid "HBO"
-msgstr "HBO"
+msgid "Documentaries"
+msgstr "Documentals"
 
 #: /xml/Home.xml
 msgctxt "#40003"
-msgid "Primevideo"
-msgstr "Primevideo"
+msgid "IPTV"
+msgstr "IPTV"
 
 #: /xml/Home.xml
 msgctxt "#40004"
