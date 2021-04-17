@@ -1003,7 +1003,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[40003]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.kodispaintv/?fanart=https%3a%2f%2fi.postimg.cc%2fhGX7vS8f%2fKodispaintv-Fanart.jpg&mode=1&name=%5bCOLOR%20red%5d%e2%80%a2%20%5b%2fCOLOR%5d%5bCOLOR%20white%5dCANALES%20DE%20ESPA%c3%91A%5b%2fCOLOR%5d&url=http%3a%2f%2fbit.ly%2fCANALES_DE_ESPANIA",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.kodispaintv/?mode=17&regexs=%7bu%27f4m%27%3a%20%7b%27listrepeat%27%3a%20u%27%5cr%5cn%3ctitle%3e%5bf4m.param1%5d%3c%2ftitle%3e%5cr%5cn%3clink%3eplugin%3a%2f%2fplugin.video.f4mTester%2f%3fstreamtype%3dTSDOWNLOADER%26amp%3bname%3d%5bCOLOR%20red%5dKodi%5b%2fCOLOR%5d%5bCOLOR%20yellow%5dSpain%5b%2fCOLOR%5d%26amp%3burl%3d%5bf4m.param2%5d%3c%2flink%3e%5cr%5cn%27%2c%20%27expres%27%3a%20u%27%23EXTINF%3a.%2a%2c(.%2a%5c%5c(ES%5c%5c).%2a%7c%5c%5c%5bES%5c%5c%5d.%2a%7cSPAIN.%2a%7c.%2aESPANA.%2a%7cESP.%2a%7c.%2a%5c%5cWES%7cEs%5c%5cW.%2a%7cSpain%5c%5cW.%2a%7cES%5c%5cW.%2a%7cESPA%2aA.%2a%7cEspa%2aa.%2a%7cSP%5c%5cW.%2a%3f%5b%5e%23%5d%7c%5c%5c%7c.ES.%5c%5c%7c.%2a%7c%5c%5c%7cESP%5c%5c%7c.%2a%7c%5c%5c%7cSP%5c%5c%7c.%2a%7c%5c%5c%7cES%5c%5c%7c.%2a)%5c%5cn.%2a(http.%2a)%27%2c%20%27name%27%3a%20u%27f4m%27%2c%20%27page%27%3a%20u%27http%3a%2f%2fdream4k.co%3a8080%2fget.php%3fusername%3dAugusto13620%26password%3dnhmuq8fqd7%26type%3dm3u%5cr%27%7d%7d&url=%24doregex%5bf4m%5d",return)</onclick>
 							<property name="menu_id">$NUMBER[45040]</property>
 							<thumb>icons/sidemenu/movistar.png</thumb>
 							<property name="id">liv</property>
