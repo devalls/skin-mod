@@ -987,7 +987,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[342]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIkdyYW5Ub3JyZW50IiwgCiAgICAiY2hhbm5lbCI6ICJncmFudG9ycmVudCIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAic2VhcmNoX3R5cGUiOiAibW92aWUiLCAKICAgICJ0aHVtYm5haWwiOiAiL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5iYWxhbmRyby9yZXNvdXJjZXMvbWVkaWEvY2hhbm5lbHMvdGh1bWIvZ3JhbnRvcnJlbnQuanBnIiwgCiAgICAidGl0bGUiOiAiw5psdGltYXMgcGVsw61jdWxhcyIsIAogICAgInVybCI6ICJodHRwczovL2dyYW50b3JyZW50Lm5sLyIKfQ%3d%3d",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIkN1ZXZhbmEyRXNwIiwgCiAgICAiY2hhbm5lbCI6ICJjdWV2YW5hMmVzcCIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAicGxvdCI6ICJbQ2FzdGVsbGFub11bQ1JdW0NSXVBlbMOtY3VsYXMgZW4gZXNwYcOxb2wuIiwgCiAgICAic2VhcmNoX3R5cGUiOiAibW92aWUiLCAKICAgICJ0aHVtYm5haWwiOiAiL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5iYWxhbmRyby9yZXNvdXJjZXMvbWVkaWEvY2hhbm5lbHMvdGh1bWIvY3VldmFuYTJlc3AucG5nIiwgCiAgICAidGl0bGUiOiAiQ2F0w6Fsb2dvIiwgCiAgICAidXJsIjogImh0dHBzOi8vY3VldmFuYTJlc3Bhbm9sLmNvbS92ZXItcGVsaWN1bGEtb25saW5lLyIKfQ%3d%3d",return)</onclick>
 							<property name="menu_id">$NUMBER[45030]</property>
 							<thumb>icons/sidemenu/movies.png</thumb>
 							<property name="id">mov</property>
@@ -995,7 +995,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[20343]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIkN1ZXZhbmEgMyIsIAogICAgImNoYW5uZWwiOiAiY3VldmFuYTMiLCAKICAgICJmaWx0cm8iOiAidGFic2VyaWUtMyIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAic2VhcmNoX3R5cGUiOiAidHZzaG93IiwgCiAgICAidGh1bWJuYWlsIjogIi9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYmFsYW5kcm8vcmVzb3VyY2VzL21lZGlhL2NoYW5uZWxzL3RodW1iL2N1ZXZhbmEzLnBuZyIsIAogICAgInRpdGxlIjogIlJhbmtpbmciLCAKICAgICJ1cmwiOiAiaHR0cHM6Ly9jdWV2YW5hMy5pby9zZXJpZSIKfQ%3d%3d",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIkhvbWVDaW5lIiwgCiAgICAiY2hhbm5lbCI6ICJob21lY2luZSIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAicGxvdCI6ICJbQ2FzdGVsbGFubywgTGF0aW5vLCBWb3NlXVtDUl1bQ1JdUGVsaWN1bGFzIHkgU2VyaWVzIGVuIEVzcGHDsW9sLCBMYXRpbm8sIFN1YnRpdHVsYWRvLCBwb3IgZ8OpbmVyb3MsIGHDsW9zIHkgcGHDrXNlcy4iLCAKICAgICJzZWFyY2hfdHlwZSI6ICJ0dnNob3ciLCAKICAgICJ0aHVtYm5haWwiOiAiL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3BsdWdpbi52aWRlby5iYWxhbmRyby9yZXNvdXJjZXMvbWVkaWEvY2hhbm5lbHMvdGh1bWIvaG9tZWNpbmUuanBnIiwgCiAgICAidGl0bGUiOiAiQ2F0w6Fsb2dvIiwgCiAgICAidXJsIjogImh0dHBzOi8vaG9tZWNpbmUudHYvc2VyaWVzLyIKfQ%3d%3d",return)</onclick>
 							<property name="menu_id">$NUMBER[45020]</property>
 							<thumb>icons/sidemenu/tv.png</thumb>
 							<property name="id">tvs</property>
@@ -1003,7 +1003,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[40003]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.kodispaintv/?mode=17&regexs=%7bu%27f4m%27%3a%20%7b%27listrepeat%27%3a%20u%27%5cr%5cn%3ctitle%3e%5bf4m.param1%5d%3c%2ftitle%3e%5cr%5cn%3clink%3eplugin%3a%2f%2fplugin.video.f4mTester%2f%3fstreamtype%3dTSDOWNLOADER%26amp%3bname%3d%5bCOLOR%20red%5dKodi%5b%2fCOLOR%5d%5bCOLOR%20yellow%5dSpain%5b%2fCOLOR%5d%26amp%3burl%3d%5bf4m.param2%5d%3c%2flink%3e%5cr%5cn%27%2c%20%27expres%27%3a%20u%27%23EXTINF%3a.%2a%2c(.%2a%5c%5c(ES%5c%5c).%2a%7c%5c%5c%5bES%5c%5c%5d.%2a%7cSPAIN.%2a%7c.%2aESPANA.%2a%7cESP.%2a%7c.%2a%5c%5cWES%7cEs%5c%5cW.%2a%7cSpain%5c%5cW.%2a%7cES%5c%5cW.%2a%7cESPA%2aA.%2a%7cEspa%2aa.%2a%7cSP%5c%5cW.%2a%3f%5b%5e%23%5d%7c%5c%5c%7c.ES.%5c%5c%7c.%2a%7c%5c%5c%7cESP%5c%5c%7c.%2a%7c%5c%5c%7cSP%5c%5c%7c.%2a%7c%5c%5c%7cES%5c%5c%7c.%2a)%5c%5cn.%2a(http.%2a)%27%2c%20%27name%27%3a%20u%27f4m%27%2c%20%27page%27%3a%20u%27http%3a%2f%2fdream4k.co%3a8080%2fget.php%3fusername%3dAugusto13620%26password%3dnhmuq8fqd7%26type%3dm3u%5cr%27%7d%7d&url=%24doregex%5bf4m%5d",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.kodispaintv/?mode=17&amp;regexs=%7bu%27f4m%27%3a%20%7b%27listrepeat%27%3a%20u%27%5cr%5cn%20%20%3ctitle%3e%5bf4m.param1%5d%3c%2ftitle%3e%5cr%5cn%20%20%3clink%3eplugin%3a%2f%2fplugin.video.f4mTester%2f%3fstreamtype%3dTSDOWNLOADER%26amp%3bname%3d%5bB%5d%5bCOLOR%20white%5d%5bf4m.param1%5d%5b%2fCOLOR%5d%5b%2fB%5d%26amp%3burl%3d%5bf4m.param2%5d%3c%2flink%3e%5cr%5cn%27%2c%20%27expres%27%3a%20u%27%23EXTINF%3a.%2a%2c(.%2a%5c%5c(ES%5c%5c).%2a%7c%5c%5c%5bES%5c%5c%5d.%2a%7cSPAIN.%2a%7c.%2aESPANA.%2a%7cESP.%2a%7c.%2a%5c%5cWES%7cEs%5c%5cW.%2a%7cSpain%5c%5cW.%2a%7cES%5c%5cW.%2a%7cESPA%2aA.%2a%7cEspa%2aa.%2a%7cSP%5c%5cW.%2a%3f%5b%5e%23%5d%7c%5c%5c%7c.ES.%5c%5c%7c.%2a%7c%5c%5c%7cESP%5c%5c%7c.%2a%7c%5c%5c%7cSP%5c%5c%7c.%2a%7c%5c%5c%7cES%5c%5c%7c.%2a)%5c%5cn.%2a(http.%2a)%27%2c%20%27name%27%3a%20u%27f4m%27%2c%20%27page%27%3a%20u%27http%3a%2f%2fm3ulink.com%3a8080%2fget.php%3fusername%3dinfo4-restream%26password%3dPatrik1016987987%26type%3dm3u%27%7d%7d&amp;url=%24doregex%5bf4m%5d",return)</onclick>
 							<property name="menu_id">$NUMBER[45040]</property>
 							<thumb>icons/sidemenu/movistar.png</thumb>
 							<property name="id">liv</property>
