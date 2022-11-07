@@ -1010,13 +1010,21 @@
 							<visible>!Skin.HasSetting(HomeMenuNoLivButton)</visible>
 						</item -->
 						<item>
+							<label>$LOCALIZE[40012]</label>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJwbGF0YWZvcm1hcyIsIAogICAgImNhdGVnb3J5IjogIkJhbGFuZHJvIiwgCiAgICAiY2hhbm5lbCI6ICJmaWxtYWZmaW5pdHlsaXN0cyIsIAogICAgImV4dHJhIjogImFsbCIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAic2VhcmNoX3R5cGUiOiAiYWxsIiwgCiAgICAidGh1bWJuYWlsIjogIi9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYmFsYW5kcm8vcmVzb3VyY2VzL21lZGlhL3RoZW1lcy9kZWZhdWx0L2hlYXJ0LnBuZyIsIAogICAgInRpdGxlIjogIiAtIFBvciBwbGF0YWZvcm1hIgp9",return)</onclick>
+							<property name="menu_id">$NUMBER[45010]</property>
+							<thumb>icons/sidemenu/stream-video.png</thumb>
+							<property name="id">vod</property>
+							<visible>!Skin.HasSetting(HomeMenuNoVodButton)</visible>
+						</item>
+						<!-- item>
 							<label>$LOCALIZE[40002]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.moestv/?eydhY3Rpb24nOiAnbWFpbm1lbnUnLCAnY2hhbm5lbCc6ICdkaXNjb3ZlcnknLCAnZmFuYXJ0JzogJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9wb3B1bGMvYmlnbWFjL21hc3Rlci9tZWRpYS9iZ19kaXNjb3ZlcnkuanBnJywgJ2ljb24nOiAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BvcHVsYy9iaWdtYWMvbWFzdGVyL21lZGlhL2Rpc2NvdmVyeS5wbmcnLCAnbGFiZWwnOiAnRGlzY292ZXJ5Kyd9",return)</onclick>
 							<property name="menu_id">$NUMBER[45010]</property>
 							<thumb>icons/sidemenu/videos.png</thumb>
 							<property name="id">documentals</property>
 							<visible>!Skin.HasSetting(HomeMenuNoDocumentalsButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[40001]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.winner/",return)</onclick>

@@ -856,4 +856,9 @@ msgctxt "#40011"
 msgid "Tv3 a la carta"
 msgstr ""
 
+#: /xml/Home.xml
+msgctxt "#40012"
+msgid "Platforms"
+msgstr ""
+
 
