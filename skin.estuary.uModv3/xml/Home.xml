@@ -992,7 +992,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[42004]</label>
-							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=f1900235cc04947f2b37eb6679e033d8")</onclick>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=215537f67855f26a159cc79e50554931")</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/microcanales.png</thumb>
 							<property name="id">microcanales</property>
