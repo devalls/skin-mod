@@ -991,6 +991,14 @@
 							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
 						</item>
 						<item>
+							<label>$LOCALIZE[42004]</label>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=f1900235cc04947f2b37eb6679e033d8")</onclick>
+							<property name="menu_id">$NUMBER[46000]</property>
+							<thumb>icons/sidemenu/microcanales.png</thumb>
+							<property name="id">microcanales</property>
+							<visible>!Skin.HasSetting(HomeMenuNoMicrocanalesButton)</visible>
+						</item>
+						<item>
 							<label>$LOCALIZE[42000]</label>
 							<!-- onclick>ActivateWindow(Music,root,return)</onclick -->
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=47de9791655a5726bb7d17d10c722055")</onclick>
@@ -999,14 +1007,14 @@
 							<property name="id">music</property>
 							<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[42108]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=9e8bb15906fba9334d6db51d1e5bb6a1")</onclick>
 							<property name="menu_id">$NUMBER[47000]</property>
 							<thumb>icons/sidemenu/home.png</thumb>
 							<property name="id">panel</property>
 							<visible>!Skin.HasSetting(HomeMenuNoPanelButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[427]</label>
 							<onclick>PlayDisc</onclick>
