@@ -983,7 +983,7 @@
 							<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)</visible>
 						</item>
 						<item>
-							<label>$LOCALIZE[40010]</label>
+							<label>$LOCALIZE[42010]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.winner/",return)</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/play.png</thumb>

@@ -772,3 +772,8 @@ msgstr "Hassio"
 msgctxt "#42004"
 msgid "Microcanales"
 msgstr "Microcanales"
+
+#. Home.xml WINNER
+msgctxt "#42010"
+msgid "Sports"
+msgstr "Deportes"
