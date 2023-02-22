@@ -1058,7 +1058,8 @@
 						<item>
 							<label>$LOCALIZE[40001]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Netflix",return)</onclick>
-							<property name="menu_id">$NUMBER[45000]</property>
+							<!-- property name="menu_id">$NUMBER[45000]</property -->
+							<property name="menu_id">$NUMBER[45300]</property>
 							<thumb>icons/sidemenu/netflix.png</thumb>
 							<property name="id">netflix</property>
 							<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)</visible>
@@ -1071,14 +1072,14 @@
 							<property name="id">Sports</property>
 							<visible>!Skin.HasSetting(HomeMenuNoSportsButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[40009]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Fibracat TV",return)</onclick>
 							<property name="menu_id">$NUMBER[45300]</property>
 							<thumb>icons/sidemenu/tvfibracat.png</thumb>
 							<property name="id">tvondemand</property>
 							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
-						</item>
+						</item -->
 						<!--item>
 							<label>$LOCALIZE[40004]</label>
 							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Microcanales",return)</onclick>
