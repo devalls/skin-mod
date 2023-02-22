@@ -990,8 +990,8 @@
 							<property name="id">Sports</property>
 							<visible>!Skin.HasSetting(HomeMenuNoSportsButton)</visible>
 						</item>
-						<item>
-							<!-- label>$LOCALIZE[42009]</label>
+						<!-- item>
+							<label>$LOCALIZE[42009]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=f1900235cc04947f2b37eb6679e033d8")</onclick>
 							<property name="menu_id">$NUMBER[45300]</property>
 							<thumb>icons/sidemenu/tvfibracat.png</thumb>
