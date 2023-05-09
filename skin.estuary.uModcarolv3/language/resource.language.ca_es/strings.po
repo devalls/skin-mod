@@ -777,3 +777,8 @@ msgstr "Microcanales"
 msgctxt "#42010"
 msgid "Sports"
 msgstr "Esports"
+
+#. Home.xml PRIME VIDEO
+msgctxt "#42002"
+msgid "Primevideo"
+msgstr "Primevideo"

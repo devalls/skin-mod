@@ -983,6 +983,14 @@
 							<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)</visible>
 						</item>
 						<item>
+							<label>$LOCALIZE[42002]</label>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=a135b1987522d2039e4434c4dcb75df7")</onclick>
+							<property name="menu_id">$NUMBER[45000]</property>
+							<thumb>icons/sidemenu/PrimeVideo2.png</thumb>
+							<property name="id">vod</property>
+							<visible>!Skin.HasSetting(HomeMenuNoVodButton)</visible>
+						</item>
+						<item>
 							<label>$LOCALIZE[42010]</label>
 							<onclick>ActivateWindow(10025,"plugin://plugin.video.winner/",return)</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>

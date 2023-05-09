@@ -959,3 +959,8 @@ msgstr ""
 msgctxt "#42010"
 msgid "Sports"
 msgstr ""
+
+#. Home.xml PRIME VIDEO
+msgctxt "#42002"
+msgid "Primevideo"
+msgstr ""
