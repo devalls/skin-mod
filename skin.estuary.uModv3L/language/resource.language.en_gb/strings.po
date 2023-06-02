@@ -959,3 +959,8 @@ msgstr ""
 msgctxt "#42010"
 msgid "Sports"
 msgstr ""
+
+#. Home.xml VLC
+msgctxt "#42012"
+msgid "VLCStream"
+msgstr ""

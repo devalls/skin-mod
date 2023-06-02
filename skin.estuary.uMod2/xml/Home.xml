@@ -1056,12 +1056,12 @@
 							<visible>!Skin.HasSetting(HomeMenuNoGrantorrentButton)</visible>
 						</item-->
 						<item>
-							<label>$LOCALIZE[40001]</label>
-							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=Netflix",return)</onclick>
+							<label>$LOCALIZE[40012]</label>
+							<onclick>PlayMedia("plugin://plugin.program.simply.launcher/?do=program&amp;id=VLC",return)</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
-							<thumb>icons/sidemenu/netflix.png</thumb>
-							<property name="id">netflix</property>
-							<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)</visible>
+							<thumb>icons/sidemenu/livetv.png</thumb>
+							<property name="id">liv</property>
+							<visible>!Skin.HasSetting(HomeMenuNoLIVButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[40009]</label>
