@@ -1,5 +1,6 @@
-[COLOR blue][B]Skin Estuary uMod2[/B][/COLOR]
-[COLOR green][B]•3.2.4[/B] Update item Menu.[/COLOR]
+[COLOR blue][B]Skin Estuary MaxEd[/B][/COLOR]
+[COLOR green][B]•3.2.6[/B] Update item Menu.[/COLOR]
+[COLOR yellow][B]•3.2.5[/B] Update item Menu.[/COLOR]
 [COLOR yellow][B]•3.2.3[/B] Update item Menu.[/COLOR]
 [COLOR yellow][B]•3.2.2[/B] Update item Menu.[/COLOR]
 [COLOR yellow][B]•3.2.1[/B] Update item Menu.[/COLOR]

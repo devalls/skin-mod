@@ -954,6 +954,22 @@
 							<visible>!Skin.HasSetting(HomeMenuNoMusicVideoButton)</visible>
 						</item>
 						<item>
+							<label>$LOCALIZE[342]</label>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJzZWxlY3Rpb24iLAogICAgImNhdGVnb3J5IjogIlRvcnJlbnRzIiwKICAgICJjaGFubmVsIjogInRvcnJlbnRzIiwKICAgICJpbmZvTGFiZWxzIjoge30sCiAgICAicGxvdCI6ICJbQ2FzdGVsbGFubywgRHVhbF1bQ1JdW0NSXVBlbMOtY3VsYXMgY29uIGVubGFjZXMgdG9ycmVudCBleGNsdXNpdmFtZW50ZSwgcG9yIGRlc3RhY2Fkb3MsIGN1bHRvLCBBLVosIGNhbGlkYWQsIGfDqW5lcm8sIGHDsW9zLCBhbGVhdG9yaW8sIMO6bHRpbWFzIHkgc2FnYXMuIiwKICAgICJzZWFyY2hfdHlwZSI6ICJtb3ZpZSIsCiAgICAidGh1bWJuYWlsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9wZXBlbWViZS9tYWcvcmF3L21haW4vaW1nL3RpbWcvdGh1bWIuanBnIiwKICAgICJ0aXRsZSI6ICJDaW5lIGRlc3RhY2FkbyIKfQ%3d%3d",return)</onclick>
+							<property name="menu_id">$NUMBER[45030]</property>
+							<thumb>icons/sidemenu/movies.png</thumb>
+							<property name="id">mov</property>
+							<visible>!Skin.HasSetting(HomeMenuNoMovButton)</visible>
+						</item>
+						<item>
+							<label>$LOCALIZE[20343]</label>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2NhdGVnX3NlYXJjaCIsCiAgICAiY2F0ZWdvcnkiOiAiUGVsaXRvcnJlbnQiLAogICAgImNoYW5uZWwiOiAicGVsaXRvcnJlbnQiLAogICAgImluZm9MYWJlbHMiOiB7fSwKICAgICJwbG90IjogIltDYXN0ZWxsYW5vLCBMYXRpbm8sIER1YWwsIFZvc2VdW0NSXVtDUl1QZWzDrWN1bGFzIHBvciBjYXTDoWxvZ28sIGfDqW5lcm9zLCBhw7FvcywgY2FsaWRhZCwgYWxmYWJldG8geSB0b3AuIFNlcmllcyBwb3IgY2F0w6Fsb2dvLCB0b3AsIGFsZmFiZXRvIHkgYcOxb3MuIEVubGFjZXMgdG9ycmVudCBleGNsdXNpdmFtZW50ZS4iLAogICAgInNlYXJjaF90eXBlIjogInR2c2hvdyIsCiAgICAidGh1bWJuYWlsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9wZXBlbWViZS9tYWcvcmF3L21haW4vaW1nL3RpbWcvcGVsaXRvcnJlbnQuanBnIiwKICAgICJ0aXRsZSI6ICJDYXTDoWxvZ28iLAogICAgInVybCI6ICJodHRwczovL3d3dy5wZWxpdG9ycmVudC5jb20vdG9ycmVudHMtc2VyaWVzLyIKfQ%3d%3d",return)</onclick>
+							<property name="menu_id">$NUMBER[45020]</property>
+							<thumb>icons/sidemenu/tv.png</thumb>
+							<property name="id">tvs</property>
+							<visible>!Skin.HasSetting(HomeMenuNoTVSButton)</visible>
+						</item>
+						<item>
 							<label>$LOCALIZE[19020]</label>
 							<property name="menu_id">$NUMBER[12000]</property>
 							<onclick>ActivateWindow(TVChannels)</onclick>
@@ -984,22 +1000,6 @@
 							<thumb>icons/sidemenu/favourites.png</thumb>
 							<property name="id">favorites</property>
 							<visible>!Skin.HasSetting(HomeMenuNoFavButton)</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[342]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIkNpbmVDYWxpZGFkTG9sIiwgCiAgICAiY2hhbm5lbCI6ICJjaW5lY2FsaWRhZGxvbCIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAicGxvdCI6ICJbUGVsw61jdWxhcywgU2VyaWVzLCBUb3JyZW50c11bQ1JdW0Nhc3RlbGxhbm8sIExhdGlubywgVm9zZV1bQ1JdW0NSXUNhbmFsIGNvbiBlbmxhY2VzIFN0cmVhbWluZyB5IFRvcnJlbnQuIEFjY2VzbyBwb3Igc2VwYXJhZG8gQ2FzdGVsbGFubyB5IExhdGluby4gUGVsw61jdWxhcyBwb3IgZ8OpbmVyb3MgeSBhw7FvLiBTZXJpZXMgcG9yIEfDqW5lcm9zLiIsIAogICAgInNlYXJjaF90eXBlIjogIm1vdmllIiwgCiAgICAidGh1bWJuYWlsIjogIi9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYmFsYW5kcm8vcmVzb3VyY2VzL21lZGlhL2NoYW5uZWxzL3RodW1iL2NpbmVjYWxpZGFkbG9sLmpwZyIsIAogICAgInRpdGxlIjogIkNhdMOhbG9nbyIsIAogICAgInVybCI6ICJodHRwczovL2NpbmVjYWxpZGFkLnJ1bi9lc3BhbmEvP3JlZj1lcyIKfQ%3d%3d",return)</onclick>
-							<property name="menu_id">$NUMBER[45030]</property>
-							<thumb>icons/sidemenu/movies.png</thumb>
-							<property name="id">mov</property>
-							<visible>!Skin.HasSetting(HomeMenuNoMovButton)</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[20343]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJsaXN0X2FsbCIsIAogICAgImNhdGVnb3J5IjogIlBlbGlzTWFydCIsIAogICAgImNoYW5uZWwiOiAicGVsaXNtYXJ0IiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJwbG90IjogIltDYXN0ZWxsYW5vLCBMYXRpbm8sIFZvc2VdW0NSXVtDUl1QZWzDrWN1bGFzIHBvciBnw6luZXJvcywgYcOxby4gVGFtYmnDqW4gU2VyaWVzIiwgCiAgICAic2VhcmNoX3R5cGUiOiAidHZzaG93IiwgCiAgICAidGh1bWJuYWlsIjogIi9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYmFsYW5kcm8vcmVzb3VyY2VzL21lZGlhL2NoYW5uZWxzL3RodW1iL3BlbGlzbWFydC5wbmciLCAKICAgICJ0aXRsZSI6ICJDYXTDoWxvZ28iLCAKICAgICJ1cmwiOiAiaHR0cHM6Ly9zbWFydHBlbGkudHYvY2FydGVsZXJhLXNlcmllcy8iCn0%3d",return)</onclick>
-							<property name="menu_id">$NUMBER[45020]</property>
-							<thumb>icons/sidemenu/tv.png</thumb>
-							<property name="id">tvs</property>
-							<visible>!Skin.HasSetting(HomeMenuNoTVSButton)</visible>
 						</item>
 						<!-- item>
 							<label>$LOCALIZE[40003]</label>
