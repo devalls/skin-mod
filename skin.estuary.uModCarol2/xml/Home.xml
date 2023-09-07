@@ -1074,7 +1074,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[40010]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.winner/",return)</onclick>
+							<onclick>ActivateWindow(10001,"plugin://script.module.horus/?eydhY3Rpb24nOiAnbW9kbGlzdCcsICdmYW5hcnQnOiAnL2hvbWUvZGFya296bWEvLmtvZGkvYWRkb25zL3NjcmlwdC5tb2R1bGUuaG9ydXMvZmFuYXJ0LmpwZycsICdpY29uJzogJy9ob21lL2Rhcmtvem1hLy5rb2RpL2FkZG9ucy9zY3JpcHQubW9kdWxlLmhvcnVzL2ljb24ucG5nJywgJ2xhYmVsJzogJ0FjZXN0cmVhbSBjaGFubmVsIGxpc3QnfQ%3d%3d",return)</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/play.png</thumb>
 							<property name="id">Sports</property>
