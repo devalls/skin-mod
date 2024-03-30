@@ -111,10 +111,10 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<control type="group" id="45300">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
+				<control type="group" id="46000">
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),microcanales)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="tvondemand"/>
+						<param name="id" value="microcanales"/>
 					</include>
 					<control type="grouplist" id="45301">
 						<include>WidgetGroupListCommon</include>
@@ -136,7 +136,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45800"/>
-						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTvondemandButton)"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoMicrocanalesButton)"/>
 					</include>
 				</control>
 				<control type="group" id="6000">
@@ -974,7 +974,7 @@
 							<property name="id">tvshows</property>
 							<visible>!Skin.HasSetting(HomeMenuNoTVShowButton)</visible>
 						</item>
-						<item>
+						<!-- item>
 							<label>$LOCALIZE[42012]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=4e2e839f24dd9da1731f6e411b508831")</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
@@ -989,7 +989,7 @@
 							<thumb>icons/sidemenu/tvfibracat.png</thumb>
 							<property name="id">tvondemand</property>
 							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
-						</item>
+						</item -->
 						<item>
 							<label>$LOCALIZE[42004]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=215537f67855f26a159cc79e50554931")</onclick>

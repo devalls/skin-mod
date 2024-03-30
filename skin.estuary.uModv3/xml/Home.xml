@@ -111,10 +111,10 @@
 						<param name="scrollbar_id" value="5010"/>
 					</include>
 				</control>
-				<control type="group" id="45300">
-					<visible>String.IsEqual(Container(9000).ListItem.Property(id),tvondemand)</visible>
+				<control type="group" id="46000">
+					<visible>String.IsEqual(Container(9000).ListItem.Property(id),microcanales)</visible>
 					<include content="Visible_Right_Delayed">
-						<param name="id" value="tvondemand"/>
+						<param name="id" value="microcanales"/>
 					</include>
 					<control type="grouplist" id="45301">
 						<include>WidgetGroupListCommon</include>
@@ -136,7 +136,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="45800"/>
-						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoTvondemandButton)"/>
+						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoMicrocanalesButton)"/>
 					</include>
 				</control>
 				<control type="group" id="6000">
