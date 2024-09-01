@@ -929,3 +929,38 @@ msgstr ""
 msgctxt "#31611"
 msgid "System"
 msgstr ""
+
+#. Home.xml music SPOTIFY
+msgctxt "#42000"
+msgid "Spotify"
+msgstr ""
+
+#. Home.xml NETFLIX
+msgctxt "#42001"
+msgid "Netflix"
+msgstr ""
+
+#. Home.xml FIBRACAT TV
+msgctxt "#42009"
+msgid "Fibracat TV"
+msgstr ""
+
+#. Home.xml PANELL HASSIO
+msgctxt "#42108"
+msgid "Hassio"
+msgstr ""
+
+#. Home.xml MICROCANALES
+msgctxt "#42004"
+msgid "Microcanales"
+msgstr ""
+
+#. Home.xml WINNER
+msgctxt "#42010"
+msgid "Sports"
+msgstr ""
+
+#. Home.xml VLC
+msgctxt "#42012"
+msgid "VLCStream"
+msgstr ""
