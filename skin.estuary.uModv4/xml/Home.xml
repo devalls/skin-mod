@@ -1022,14 +1022,14 @@
 							<property name="id">tvondemand</property>
 							<visible>!Skin.HasSetting(HomeMenuNoTvondemandButton)</visible>
 						</item -->
-						<!-- item>
+						<item>
 							<label>$LOCALIZE[42004]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=215537f67855f26a159cc79e50554931")</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/microcanales.png</thumb>
 							<property name="id">microcanales</property>
 							<visible>!Skin.HasSetting(HomeMenuNoMicrocanalesButton)</visible>
-						</item -->
+						</item>
 						<!-- item>
 							<label>$LOCALIZE[42000]</label>
 							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=47de9791655a5726bb7d17d10c722055")</onclick>
@@ -1119,7 +1119,7 @@
 					<visible>system.date(01-10,10-24)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
-						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="onclick" value="ActivateWindow(favouritesbrowser)" />
 						<param name="icon" value="icons/favourites2.png" />
 						<param name="label" value="$LOCALIZE[137]" />
 					</include>
@@ -1157,7 +1157,7 @@
                                         <visible>system.date(10-24,11-03)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
-						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="onclick" value="ActivateWindow(favouritesbrowser)" />
 						<param name="icon" value="icons/favourites2h.png" />
 						<param name="label" value="$LOCALIZE[137]" />
 					</include>
@@ -1195,7 +1195,7 @@
 					<visible>system.date(11-03,12-20)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
-						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="onclick" value="ActivateWindow(favouritesbrowser)" />
 						<param name="icon" value="icons/favourites2.png" />
 						<param name="label" value="$LOCALIZE[137]" />
 					</include>
@@ -1233,7 +1233,7 @@
                                         <visible>system.date(12-20,01-10)</visible>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
-						<param name="onclick" value="ActivateWindow(favourites)" />
+						<param name="onclick" value="ActivateWindow(favouritesbrowser)" />
 						<param name="icon" value="icons/favourites2n.png" />
 						<param name="label" value="$LOCALIZE[137]" />
 					</include>
