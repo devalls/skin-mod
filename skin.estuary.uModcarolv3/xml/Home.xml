@@ -976,7 +976,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[42001]</label>
-							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=afdaf94d3699eff425d0bac45bee3d98")</onclick>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=0f12f5985938d7f9f5e77fb0b61c0b1d")</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
 							<thumb>icons/sidemenu/netflix.png</thumb>
 							<property name="id">netflix</property>
@@ -984,7 +984,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[42002]</label>
-							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=a135b1987522d2039e4434c4dcb75df7")</onclick>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=8d0ea55d93d248214a070d9690b2852b")</onclick>
 							<property name="menu_id">$NUMBER[45000]</property>
 							<thumb>icons/sidemenu/PrimeVideo2.png</thumb>
 							<property name="id">vod</property>
@@ -992,7 +992,7 @@
 						</item>
 						<item>
 							<label>$LOCALIZE[42010]</label>
-							<onclick>ActivateWindow(10025,"plugin://plugin.video.winner/",return)</onclick>
+							<onclick>ActivateWindow(10025,"plugin://plugin.video.blackcat2Mod/",return)</onclick>
 							<property name="menu_id">$NUMBER[46000]</property>
 							<thumb>icons/sidemenu/play.png</thumb>
 							<property name="id">Sports</property>
@@ -1017,7 +1017,7 @@
 						<item>
 							<label>$LOCALIZE[42000]</label>
 							<!-- onclick>ActivateWindow(Music,root,return)</onclick -->
-							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=47de9791655a5726bb7d17d10c722055")</onclick>
+							<onclick>PlayMedia("plugin://plugin.program.umod.launcher/?com=LAUNCH_STANDALONE&amp;catID=root_category&amp;launID=d6e66d35e460facd6874c44a1d6c5170")</onclick>
 							<property name="menu_id">$NUMBER[7000]</property>
 							<thumb>icons/sidemenu/music.png</thumb>
 							<property name="id">music</property>
@@ -1348,7 +1348,7 @@
 					<width>192</width>
 					<height>36</height>
 					<visible>system.date(01-10,10-24)</visible>
-					<texture colordiffuse="red">icons/logo-text2.png</texture>
+					<texture colordiffuse="red">icons/logo-text2c.png</texture>
 				</control>
 				<control type="image">
 					<left>40</left>
@@ -1366,7 +1366,7 @@
 					<width>192</width>
 					<height>36</height>
 					<visible>system.date(11-03,12-20)</visible>
-					<texture colordiffuse="red">icons/logo-text2.png</texture>
+					<texture colordiffuse="red">icons/logo-text2c.png</texture>
 				</control>
 				<control type="image">
 					<left>40</left>
